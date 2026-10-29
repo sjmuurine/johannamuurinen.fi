@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Johanna Muurinen · Vihreät · Eduskuntavaalit 2027</title>
+<meta name="description" content="Johanna Muurinen on tutkija, mikrobiologian dosentti ja Vihreiden eduskuntavaaliehdokas Uudellamaalla. Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.">
+<link rel="canonical" href="https://johannamuurinen.fi/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:url" content="https://johannamuurinen.fi/">
+<meta property="og:title" content="Johanna Muurinen · Eduskuntavaalit 2027">
+<meta property="og:description" content="Johanna Muurinen on tutkija, mikrobiologian dosentti ja Vihreiden eduskuntavaaliehdokas Uudellamaalla. Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.">
+<meta property="og:image" content="https://johannamuurinen.fi/kuvat/jakokuva.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+@font-face{font-family:"Barlow Semi Condensed";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/barlow-semi-condensed-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"Barlow Semi Condensed";font-style:normal;font-weight:800;font-display:swap;src:url("fonts/barlow-semi-condensed-latin-800-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/ibm-plex-sans-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/ibm-plex-sans-latin-400-italic.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/ibm-plex-sans-latin-600-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/ibm-plex-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:500;font-display:swap;src:url("fonts/ibm-plex-mono-latin-500-normal.woff2") format("woff2")}</style>
+<style>
+/* Layout: one skeleton, three colour worlds. Each page sets data-world on .site;
+   the header, the page's opening band and the accents take that world's deep/tint pair.
+   Campaign green is the home world; research is Ilta/Taivas, riding is Luumu/Persikka
+   (all from the Greens' own palette, so the site stays kin to the party look). */
+:root{
+  --paper:#F4F6EE; --ink:#16241C; --ink-soft:#44524A; --sand:#D6D2C4; --white:#FFFFFF;
+  --green-deep:#284734; --green-text:#006845; --green-bright:#009639; --green-tint:#D9EA9A;
+  --ilta:#006272; --taivas:#BBDDE6; --luumu:#70273D; --persikka:#F8CFA9;
+  --display:"Barlow Semi Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --gutter:clamp(16px,4vw,48px); --max:1180px;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* world tokens */
+.site{--deep:var(--green-deep);--tint:var(--green-tint);--accent:var(--green-text);--on-tint:var(--green-text);overflow-wrap:break-word}
+.site[data-world="tutkimus"]{--deep:var(--ilta);--tint:var(--taivas);--accent:var(--ilta);--on-tint:var(--ilta)}
+.site[data-world="hevoset"]{--deep:var(--luumu);--tint:var(--persikka);--accent:var(--luumu);--on-tint:var(--luumu)}
+
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1;margin:0;text-wrap:balance}
+h2{font-size:clamp(2rem,4.2vw,3.1rem);color:var(--accent)}
+h3{font-size:1.45rem;line-height:1.1;color:var(--accent)}
+p,ul,ol,dl,figure{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--white);outline-offset:2px;box-shadow:0 0 0 6px var(--ink)}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.stack{display:flex;flex-direction:column;gap:1.1rem}
+.stack--lg{gap:2rem}
+.measure{max-width:38em}
+.eyebrow{font:500 .8rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+
+/* draft legend */
+.draftbar{background:var(--sand);color:var(--ink);font:500 .76rem/1.45 var(--mono);padding-block:.5rem}
+
+/* header */
+.top{background:var(--deep);color:var(--white);transition:background-color .25s}
+.top__in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.4rem 1.5rem;padding-block:.85rem}
+.brand{font:800 1.55rem/1 var(--display);color:var(--white);text-decoration:none}
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.3rem}
+.nav a{color:var(--white);text-decoration:none;font-weight:600;font-size:.95rem;padding-block:.3rem;border-bottom:2px solid transparent}
+.nav a[aria-current="page"]{color:var(--tint);border-bottom-color:var(--tint)}
+.nav a.nav__cta{background:var(--tint);color:var(--on-tint);padding:.4rem 1rem;border-radius:999px;border-bottom:0}
+@media(min-width:760px){.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10}}
+
+/* bands */
+.band{padding-block:clamp(3rem,7vw,5.5rem)}
+.band--sand{background:var(--sand)}
+.band--tint{background:var(--tint)}
+.band--deep{background:var(--deep);color:var(--white)}
+.on-deep h1,.on-deep h2,.on-deep h3,.on-deep .eyebrow{color:var(--tint)}
+
+/* opening band */
+.hero{background:var(--deep);color:var(--white);transition:background-color .25s}
+.hero__in{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(2rem,5vw,4.5rem);align-items:end;padding-block:clamp(2.5rem,6vw,5rem)}
+.hero h1{font-size:clamp(2.6rem,6.3vw,5rem);line-height:.96}
+.lead{font-size:clamp(1.1rem,1.6vw,1.3rem);line-height:1.5;max-width:34em}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem;padding-top:.5rem}
+.btn{display:inline-block;font-weight:600;text-decoration:none;padding:.7rem 1.35rem;border-radius:999px;border:2px solid var(--tint);background:var(--tint);color:var(--on-tint)}
+.btn--ghost{background:transparent;color:var(--tint)}
+.btn--solid{background:var(--deep);border-color:var(--deep);color:var(--tint)}
+.hero .hero__logo{width:min(100%,340px);justify-self:end}
+
+/* picture placeholder; on the campaign picture the logo sits bottom left and the name bottom right, as the party guide asks */
+.photo{--ph:var(--tint);position:relative;aspect-ratio:4/5;width:100%;max-width:100%;display:grid;place-items:center;padding:1.25rem;text-align:center;border:2px dashed color-mix(in srgb,var(--ph) 75%,transparent);background:color-mix(in srgb,var(--ph) 12%,transparent)}
+.photo--paper{--ph:var(--accent)}
+.photo--wide{aspect-ratio:4/3}
+.photo__hint{font:400 .82rem/1.45 var(--mono);color:var(--ph);max-width:22em}
+.photo__hint b{display:block;font-weight:500;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.35rem}
+.photo .photo__logo{position:absolute;left:1.1rem;bottom:1.1rem;width:38%}
+.photo__name{position:absolute;right:1.1rem;bottom:1.1rem;font:800 clamp(1.15rem,2.1vw,1.6rem)/1 var(--display);color:var(--white);text-align:right}
+/* a real photo in the frame: no dashed border; logo and name sit in a row below it, logo left and name right */
+.photo--img{aspect-ratio:1/1;padding:0;border:0;background:var(--deep);overflow:hidden}
+.photo--img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.portrait{display:flex;flex-direction:column;gap:1.1rem;width:100%;max-width:440px}
+.portrait__cap{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.portrait .portrait__logo{width:min(48%,180px)}
+.portrait__name{font:800 clamp(1.3rem,2.2vw,1.65rem)/1 var(--display);color:var(--white);text-align:right}
+
+.logo{display:block;width:100%;height:auto;aspect-ratio:316.26/98.51}
+.logo--nega{fill:var(--white)}
+.logo--rgb{fill:var(--green-text)}
+
+/* election facts */
+.strip{background:var(--tint)}
+.strip__in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem 2rem;padding-block:1.75rem}
+.fact{display:flex;flex-direction:column;gap:.35rem}
+.fact__label{font:500 .76rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--on-tint)}
+.fact__value{font:800 clamp(1.9rem,3.6vw,2.6rem)/1 var(--display);color:var(--on-tint);font-variant-numeric:tabular-nums}
+.fact__sub{font-size:.95rem;line-height:1.4}
+.numero{display:inline-grid;place-items:center;width:1.25em;height:1.25em;border:2px dashed currentColor;border-radius:50%;font-size:.8em;vertical-align:top}
+
+/* the three roles */
+.roles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.role{background:var(--r-deep);color:var(--white);text-decoration:none;display:flex;flex-direction:column;justify-content:space-between;gap:3rem;padding:clamp(1.5rem,3.2vw,2.75rem);min-height:clamp(17rem,30vw,25rem)}
+.role--pol{--r-deep:var(--green-deep);--r-tint:var(--green-tint)}
+.role--tut{--r-deep:var(--ilta);--r-tint:var(--taivas)}
+.role--rat{--r-deep:var(--luumu);--r-tint:var(--persikka)}
+.role__label{font:500 .8rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--r-tint)}
+.role__head,.role__body{display:flex;flex-direction:column;gap:.9rem;align-items:flex-start}
+.role__word{font:800 clamp(2.8rem,5.2vw,4.4rem)/.92 var(--display);color:var(--r-tint)}
+.role__go{font-weight:600;border-bottom:2px solid var(--r-tint);padding-bottom:.1rem;transition:padding-right .2s}
+.role:hover .role__go,.role:focus-visible .role__go{padding-right:.6rem}
+
+/* two-column text layouts */
+.split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(2rem,5vw,5rem);align-items:start}
+.reasons{list-style:none;padding:0;counter-reset:syy;display:flex;flex-direction:column;gap:2.25rem}
+.reasons li{counter-increment:syy;display:grid;grid-template-columns:2.6rem minmax(0,1fr);gap:0 1rem}
+.reasons li::before{content:counter(syy);font:800 3.6rem/.85 var(--display);color:var(--green-bright)}
+.pull{font:500 clamp(1.05rem,1.7vw,1.3rem)/1.5 var(--mono);color:var(--on-tint);background:var(--tint);padding:1.4rem 1.5rem}
+.themes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.25rem 3.5rem}
+.theme{border-top:3px solid var(--accent);padding-top:1rem;display:flex;flex-direction:column;gap:.6rem}
+.cols3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem 2.5rem}
+.prose{display:flex;flex-direction:column;gap:1.1rem;max-width:38em}
+a.theme{color:inherit;text-decoration:none}
+a.theme h3{text-decoration:underline;text-decoration-color:transparent;text-underline-offset:.15em;transition:text-decoration-color .2s}
+a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
+.themes--six{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:960px){.themes--six{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.themes--six{grid-template-columns:minmax(0,1fr)}}
+/* research page: time travel list in the opening band */
+.trip{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;border-left:2px solid var(--tint)}
+.trip li{position:relative;padding:0 0 1.15rem 1.4rem}
+.trip li:last-child{padding-bottom:0}
+.trip li::before{content:"";position:absolute;left:-7px;top:.35rem;width:12px;height:12px;border-radius:50%;background:var(--tint)}
+.trip b{display:block;font:800 1.35rem/1.1 var(--display);color:var(--tint)}
+.trip span{font-size:.95rem;line-height:1.45}
+.trip__title{font:500 .78rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--tint);margin-bottom:1rem}
+.gallery__img{display:block;width:100%;height:auto;max-width:100%;aspect-ratio:4/3;object-fit:cover}
+.gallery__img--tall{aspect-ratio:3/4}
+.gallery.gallery--three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.shot{margin:0;display:flex;flex-direction:column;gap:.45rem;min-width:0}
+.shot figcaption{font:400 .8rem/1.4 var(--mono);color:var(--ink-soft)}
+.gallery.gallery--two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.shot--wide{grid-column:1/-1}
+.shot--wide .gallery__img{aspect-ratio:auto}
+.gallery--two{align-items:start}
+.gallery--two .gallery__img{aspect-ratio:auto}
+.quote{margin:0;display:flex;flex-direction:column;gap:1rem;max-width:36em}
+.quote blockquote{margin:0;font:600 clamp(1.25rem,2.1vw,1.6rem)/1.35 var(--display);color:var(--accent)}
+.quote figcaption{font:400 .82rem/1.5 var(--mono);color:var(--ink-soft)}
+.quote figcaption a{color:inherit}
+.band--tight{padding-block:0 clamp(2.5rem,6vw,4.5rem)}
+.hero .hero__img{display:block;width:100%;height:auto;max-width:100%;aspect-ratio:1600/1147;object-fit:cover}
+@media(max-width:760px){.gallery.gallery--three{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.gallery.gallery--three,.gallery.gallery--two{grid-template-columns:minmax(0,1fr)}}
+.prose a,.textlink{color:var(--accent);text-decoration-thickness:1.5px;text-underline-offset:.18em}
+.textlink{font-weight:600}
+.theses{list-style:none;padding:0;display:flex;flex-direction:column;gap:.9rem}
+.theses li{font:800 clamp(1.35rem,2.3vw,1.75rem)/1.08 var(--display);color:var(--on-tint);padding-left:1rem;border-left:4px solid var(--green-bright);text-wrap:balance}
+.theses__by{font:500 .8rem/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--on-tint)}
+.stances{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.25rem 3.5rem}
+@media(max-width:700px){.stances{grid-template-columns:minmax(0,1fr)}}
+/* one stance = title left; claim, reasons and "what I would do" right */
+.stancelist{display:flex;flex-direction:column}
+.stance{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:1rem clamp(2rem,5vw,5rem);padding-block:2.25rem;border-top:3px solid var(--accent)}
+.stance:last-child{border-bottom:3px solid var(--accent)}
+.stance h3{font-size:clamp(1.5rem,2.4vw,1.9rem)}
+.stance h3 a{color:inherit;text-decoration-thickness:2px;text-underline-offset:.15em}
+.foot__small a{color:inherit}
+.stance__claim{font-weight:600;font-size:1.15rem;line-height:1.5}
+.stance__do{background:var(--tint);color:var(--ink);padding:1rem 1.2rem}
+.stance__do b{display:block;font:500 .74rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--on-tint);margin-bottom:.3rem}
+@media(max-width:760px){.stance{grid-template-columns:minmax(0,1fr)}}
+
+/* lists */
+.dates{display:grid;grid-template-columns:auto minmax(0,1fr);gap:1rem 1.75rem;align-items:baseline}
+.dates dt{font:800 1.55rem/1.1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+.dates dd{margin:0}
+.facts{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:.9rem 1.5rem}
+.facts dt{font:500 .8rem/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);padding-top:.2rem}
+.facts dd{margin:0}
+.posts{list-style:none;padding:0;display:flex;flex-direction:column}
+.posts li{padding-block:.8rem;border-top:1px solid color-mix(in srgb,var(--accent) 30%,transparent);font-weight:600}
+.posts li:last-child{border-bottom:1px solid color-mix(in srgb,var(--accent) 30%,transparent)}
+
+/* draft notes: what still needs Johanna's own words or pictures */
+.note{--nc:var(--accent);border:1.5px dashed var(--nc);padding:.9rem 1.05rem;font-size:.92rem;line-height:1.5;color:var(--ink-soft)}
+.note b{display:block;font:500 .72rem/1.3 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--nc);margin-bottom:.3rem}
+.on-deep .note{--nc:var(--tint);color:var(--white)}
+.band--sand .note{color:var(--ink)}
+
+/* join */
+.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem 2.5rem}
+.way{display:flex;flex-direction:column;gap:.7rem}
+#mukaan{scroll-margin-top:4.5rem}
+
+/* riding */
+.arena{display:block;width:100%;height:auto}
+.arena rect{fill:color-mix(in srgb,var(--tint) 12%,transparent);stroke:var(--tint);stroke-width:2.5}
+.arena line{stroke:var(--tint);stroke-width:2}
+.arena .mid{stroke-dasharray:6 8;stroke-width:1.5}
+.arena circle{fill:var(--tint)}
+.arena text{fill:var(--tint);font:500 24px var(--mono);text-anchor:middle;dominant-baseline:middle}
+.cap{font:400 .82rem/1.5 var(--mono);color:var(--tint);padding-top:.75rem}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.25rem}
+
+/* footer */
+.foot{background:var(--ink);color:var(--white)}
+.foot__in{display:flex;flex-wrap:wrap;gap:1.75rem 3rem;align-items:flex-end;justify-content:space-between;padding-block:2.75rem}
+.foot__logo{width:210px;max-width:60%}
+.site[data-world="tutkimus"] .foot__logo,.site[data-world="hevoset"] .foot__logo{display:none}
+.foot__text{display:flex;flex-direction:column;gap:.3rem;font-size:.92rem}
+.foot__text strong{font:800 1.4rem/1.1 var(--display)}
+.foot__small{font:400 .78rem/1.5 var(--mono);color:var(--green-tint)}
+.foot__social{font-size:.92rem}
+.mail{color:var(--tint);font-weight:600;overflow-wrap:anywhere}
+.foot__social a{color:inherit}
+.social{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.social a{display:inline-block;padding:.35rem .9rem;border:1.5px solid var(--tint);border-radius:999px;color:var(--tint);text-decoration:none;font-weight:600;font-size:.92rem}
+.social a:hover{background:var(--tint);color:var(--on-tint)}
+
+@media(max-width:860px){
+  .hero__in,.split,.roles,.cols3,.ways{grid-template-columns:minmax(0,1fr)}
+  .hero__in{align-items:start}
+  .hero .hero__logo{justify-self:start;width:min(70%,260px)}
+  .photo{max-width:440px}
+  .role{min-height:0;gap:2rem}
+}
+@media(max-width:700px){
+  .strip__in,.themes{grid-template-columns:minmax(0,1fr)}
+  .facts{grid-template-columns:minmax(0,1fr);gap:.2rem}
+  .facts dd{padding-bottom:.8rem}
+}
+@media(max-width:560px){
+  .site{hyphens:auto}
+  .dates{grid-template-columns:minmax(0,1fr);gap:.15rem}
+  .dates dd{padding-bottom:.9rem}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="logo-nega" viewBox="0 0 316.26 98.51"><path d="M139.79,50.01c0-7.36-4.51-11.84-11.84-11.84h-8.02c-.36,0-.64,.29-.64,.65v22.46c0,.35,.29,.64,.64,.64h8.78c6.86,0,11.08-4.48,11.08-11.91m-11.15,9.17h-6.32v-18.26h5.7c5.41,0,8.74,3.43,8.74,9.1s-3.07,9.17-8.12,9.17"/><path d="M151.99,62.21c4.39,0,7.42-2.15,7.94-5.59,.06-.38-.25-.73-.64-.73h-1.42c-.3,0-.56,.21-.62,.5-.47,2.06-2.44,3.36-5.22,3.36-3.5,0-5.81-2.38-5.99-6.17h13.32c.36,0,.64-.29,.64-.64v-.69c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06m0-15.95c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M193.5,47.84c.35,0,.63-.28,.64-.63,0-.32,0-.6,0-.78,0-5.41-4.3-8.63-10.29-8.63-6.75,0-11.95,5.02-11.95,12.45s5.02,12.02,11.77,12.02c4.73,0,7.36-2.06,8.08-4.76h.04c-.06,1.37-.14,2.72-.22,3.71-.03,.38,.26,.7,.64,.7h1.5c.35,0,.64-.29,.64-.64v-10.12c0-.36-.29-.65-.64-.65h-10.08c-.35,0-.64,.29-.64,.65v.95c0,.35,.29,.64,.64,.64h7.7v.69c0,3.57-2.92,6.24-7.65,6.24s-8.74-3.65-8.74-9.38,3.9-9.74,8.91-9.74c4.29,0,7.47,2.24,7.47,6.03,0,.18,0,.38,0,.6,0,.36,.28,.66,.64,.66h1.52Z"/><path d="M202.26,49.25h-.04l.06-4.51c0-.36-.29-.65-.65-.65h-1.59c-.36,0-.64,.29-.64,.64v16.54c0,.35,.29,.64,.64,.64h1.6c.35,0,.64-.29,.64-.64v-7.26c0-4.44,2.13-7.61,5.77-7.61,2.92,0,4.15,1.69,4.15,4.98,0,.73-.03,1.37-.07,1.87-.03,.37,.27,.69,.64,.69h1.34c.33,0,.61-.25,.64-.58,.06-.7,.12-1.66,.12-2.59,0-4.3-2.13-6.97-6.14-6.97s-5.67,2.34-6.5,5.45"/><path d="M236.13,53.04c0-5.63-3.5-9.24-9.02-9.24s-9.02,3.61-9.02,9.24,3.5,9.17,9.02,9.17,9.02-3.57,9.02-9.17m-9.02,6.57c-3.75,0-6.14-2.56-6.14-6.57s2.38-6.64,6.14-6.64,6.14,2.6,6.14,6.64-2.38,6.57-6.14,6.57"/><path d="M230.21,41.94c1.07,0,1.94-.87,1.94-1.94s-.87-1.94-1.94-1.94h-.06c-1.07,0-1.94,.87-1.94,1.94s.87,1.94,1.94,1.94h.06Z"/><path d="M224.07,41.94c1.07,0,1.94-.87,1.94-1.94s-.87-1.94-1.94-1.94h-.06c-1.07,0-1.94,.87-1.94,1.94s.87,1.94,1.94,1.94h.06Z"/><path d="M243.04,48.89h-.04l.06-4.15c0-.36-.28-.65-.64-.65h-1.59c-.36,0-.65,.29-.65,.64v16.54c0,.35,.29,.64,.65,.64h1.6c.35,0,.64-.29,.64-.64v-8.13c0-4.26,2.63-6.75,6.71-6.75,3.83,0,5.56,1.95,5.56,4.98v9.9c0,.35,.29,.64,.64,.64h1.6c.36,0,.64-.29,.64-.64v-10.51c0-4.26-2.78-6.97-7.47-6.97-4.26,0-6.75,1.98-7.72,5.09"/><path d="M270.57,43.8c-4.84,0-7.87,2.13-7.87,5.67,0,.14,0,.3,.01,.47,.02,.34,.3,.61,.64,.61h1.4c.36,0,.64-.29,.64-.65h0c0-2.42,1.8-3.65,5.09-3.65,3.64,0,5.45,1.48,5.45,4.55v1.3h-7.26c-4.77,0-6.53,2.17-6.53,4.69,0,3.36,2.56,5.41,6.61,5.41,4.44,0,6.68-1.77,7.29-4.51h.04c-.03,1.35-.08,2.65-.12,3.55-.01,.37,.28,.67,.64,.67h1.57c.36,0,.64-.29,.64-.64v-10.22c0-4.66-3.03-7.26-8.27-7.26m5.38,10.65c0,3.25-2.56,5.31-6.61,5.31-2.82,0-4.48-1.15-4.48-2.96s1.16-2.6,4.08-2.6h7v.25Z"/><path d="M128.09,91.17v-19.67c0-.38,.31-.69,.69-.69h6.49c.38,0,.69-.31,.69-.69v-1.33c0-.38-.31-.69-.69-.69h-17.4c-.38,0-.69,.31-.69,.69v1.33c0,.38,.31,.69,.69,.69h6.5c.38,0,.69,.31,.69,.69v19.67c0,.38,.31,.69,.69,.69h1.66c.38,0,.69-.31,.69-.69"/><path d="M154.27,81.32v9.85c0,.38,.31,.68,.69,.68h1.51c.38,0,.69-.31,.69-.68v-10.47c0-4.26-2.78-6.97-7.47-6.97-4.26,0-6.75,2.02-7.72,5.12h-.04c0-.65,.07-2.78,.07-3.75v-7.58c0-.38-.31-.69-.69-.69h-1.52c-.38,0-.69,.31-.69,.69v23.64c0,.38,.31,.68,.69,.68h1.52c.38,0,.69-.31,.69-.68v-7.72c0-4.51,2.63-7.11,6.71-7.11,3.83,0,5.56,1.95,5.56,4.98"/><path d="M177.14,85.83h-1.38c-.31,0-.57,.21-.64,.51-.48,2.05-2.45,3.35-5.22,3.35-3.5,0-5.81-2.38-5.99-6.17h13.31c.36,0,.66-.3,.66-.66v-.67c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06c4.38,0,7.41-2.14,7.94-5.57,.06-.4-.26-.75-.66-.75m-7.28-9.64c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M211.55,80.45h-10c-.38,0-.69,.31-.69,.69v.87c0,.38,.31,.69,.69,.69h7.65v.69c0,3.57-2.92,6.24-7.65,6.24s-8.74-3.64-8.74-9.38,3.9-9.75,8.92-9.75c4.29,0,7.47,2.24,7.47,6.03,0,.18,0,.37,0,.57,0,.38,.31,.7,.69,.7h1.44c.37,0,.68-.3,.69-.67,0-.31,0-.57,0-.74,0-5.41-4.3-8.63-10.29-8.63-6.75,0-11.95,5.02-11.95,12.45s5.02,12.02,11.77,12.02c4.73,0,7.36-2.06,8.09-4.77h.03c-.06,1.35-.13,2.68-.22,3.66-.03,.4,.28,.74,.68,.74h1.41c.38,0,.68-.31,.68-.69v-10.03c0-.38-.31-.69-.68-.69"/><path d="M231.95,83.88c.36,0,.65-.27,.68-.63,.06-.69,.12-1.64,.12-2.55,0-4.29-2.13-6.97-6.14-6.97s-5.67,2.35-6.5,5.45h-.04l.06-4.47c0-.38-.3-.7-.69-.7h-1.51c-.38,0-.68,.31-.68,.69v16.46c0,.38,.31,.68,.68,.68h1.52c.38,0,.68-.3,.68-.68v-7.22c0-4.44,2.13-7.62,5.78-7.62,2.92,0,4.15,1.7,4.15,4.98,0,.71-.03,1.33-.07,1.83-.03,.4,.28,.74,.68,.74h1.25Z"/><path d="M252.81,82.19c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06c4.37,0,7.39-2.13,7.93-5.54,.07-.41-.27-.78-.68-.78h-1.34c-.32,0-.59,.22-.66,.53-.49,2.04-2.45,3.33-5.21,3.33-3.5,0-5.81-2.38-5.99-6.17h13.28c.38,0,.68-.31,.68-.68v-.65Zm-2.67-.76h-11.19c.54-3.39,2.67-5.23,5.85-5.23,3.39,0,5.34,1.88,5.34,5.02v.22Z"/><path d="M264.95,92.15c4.37,0,7.39-2.13,7.93-5.54,.07-.41-.27-.78-.68-.78h-1.34c-.32,0-.59,.22-.66,.53-.49,2.04-2.45,3.33-5.22,3.33-3.5,0-5.81-2.38-5.99-6.17h13.28c.38,0,.69-.31,.69-.69v-.65c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06m0-15.95c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M287.7,73.74c-4.26,0-6.75,1.99-7.73,5.09h-.04l.06-4.1c0-.38-.3-.7-.69-.7h-1.51c-.38,0-.68,.31-.68,.68v16.46c0,.38,.31,.68,.68,.68h1.52c.38,0,.69-.31,.69-.68v-8.09c0-4.26,2.64-6.75,6.71-6.75,3.83,0,5.56,1.95,5.56,4.98v9.85c0,.38,.31,.68,.68,.68h1.52c.38,0,.69-.31,.69-.68v-10.47c0-4.26-2.78-6.97-7.47-6.97"/><path d="M313.56,83.16c-1.23-.68-2.6-.94-5.38-1.23-2.35-.25-4.11-.47-4.98-.83-1.05-.43-1.15-1.3-1.15-2.02,0-1.77,1.98-2.89,5.05-2.89s4.5,1.04,4.76,3.28c.04,.35,.33,.61,.68,.61h1.32c.4,0,.72-.34,.69-.74-.27-3.55-2.55-5.61-7.55-5.61s-7.83,2.17-7.83,5.52c0,1.3,.51,2.6,1.48,3.32,1.08,.79,2.85,1.15,5.77,1.41,2.2,.22,4.08,.43,4.91,.83,.9,.43,1.12,1.12,1.12,1.84,0,1.91-1.77,3.03-5.45,3.03-3.38,0-4.88-1.16-5.13-3.17-.04-.35-.33-.62-.68-.62h-1.31c-.4,0-.72,.34-.69,.74,.26,3.09,2.28,5.51,7.84,5.51s8.3-2.09,8.3-5.59c0-1.34-.58-2.71-1.77-3.39"/><path d="M141.69,8.04h-4.57c-.33,0-.62,.21-.72,.52l-6.1,18.15h-.07l-6.24-18.16c-.1-.31-.39-.51-.72-.51h-5.27c-.49,0-.83,.49-.65,.95l8.57,22.56c.11,.29,.4,.49,.71,.49h6.39c.32,0,.6-.19,.71-.49l8.6-22.56c.18-.46-.16-.95-.65-.95"/><path d="M149.32,14.02h-4.02c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76V14.78c0-.42-.34-.76-.76-.76"/><path d="M165.76,13.73c-4.08,0-6.2,1.64-7.11,5.07h-.07c.11-1.35,.22-3.39,.22-4.08V7.52c0-.42-.34-.76-.76-.76h-4.02c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-7.81c0-3.43,1.75-5.14,4.67-5.14,2.48,0,3.9,1.13,3.9,3.68v9.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-10.51c0-4.67-2.81-7.04-7.15-7.04"/><path d="M187.56,13.73c-3.54,0-5.47,2.01-6.24,5.43h-.07l.18-4.35c.02-.43-.33-.79-.76-.79h-3.99c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-7.01c0-4.01,1.64-5.94,4.01-5.94,1.75,0,2.81,1.06,2.81,3.68,0,.38-.02,.93-.05,1.53-.03,.44,.32,.81,.76,.81h3.51c.4,0,.73-.31,.76-.7,.06-.92,.13-2.07,.13-2.87,0-4.67-2.15-7.04-5.83-7.04"/><path d="M224.81,13.73c-5.47,0-8.68,2.15-8.68,5.8,0,.11,0,.22,0,.34,.02,.4,.36,.72,.76,.72h3.61c.42,0,.76-.34,.76-.76h0c0-1.46,1.2-2.34,3.28-2.34,2.55,0,3.79,.87,3.79,3.06v1.2h-5.87c-4.78,0-6.89,2.15-6.89,5.1,0,3.65,2.92,5.47,7.11,5.47,3.28,0,5.32-1.38,5.87-3.94h.04c0,.81-.08,1.92-.17,2.82-.04,.45,.31,.83,.76,.83h3.94c.42,0,.76-.34,.76-.76v-10.18c0-4.81-3.35-7.37-9.08-7.37m3.54,11.38c0,2.19-1.68,3.46-4.56,3.46-2.01,0-3.21-.73-3.21-2.11,0-1.02,.91-1.71,2.41-1.71h5.36v.36Z"/><path d="M243.45,18.32h5c.42,0,.76-.34,.76-.76v-2.78c0-.42-.34-.76-.76-.76h-5s0,0,0,0v-3.32c0-.42-.34-.76-.76-.76h-3.11c-.39,0-.72,.29-.76,.68l-.19,1.83c-.11,1.09-.4,1.57-1.24,1.57h-1.39c-.42,0-.76,.34-.76,.76v2.78c0,.42,.34,.76,.76,.76h1.9v7.51c0,4.01,2.01,6.49,7.62,6.49,1.08,0,2.17-.15,2.88-.28,.36-.06,.63-.38,.63-.75v-2.67c0-.46-.41-.81-.86-.75-.55,.07-1.17,.11-1.65,.11-2.19,0-3.06-.58-3.06-2.44v-7.22"/><path d="M147.31,6.66c-1.78,0-3.22,1.44-3.22,3.22s1.44,3.22,3.22,3.22,3.22-1.44,3.22-3.22-1.44-3.22-3.22-3.22"/><path d="M221.13,12.85c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.97,1.33-2.97,2.97,1.33,2.97,2.97,2.97"/><path d="M228.56,12.85c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.98,1.33-2.98,2.97,1.33,2.97,2.98,2.97"/><path d="M204.93,13.73c-6.09,0-9.81,3.54-9.81,9.48s3.72,9.12,9.7,9.12c4.78,0,8.08-2.08,8.61-5.68,.07-.45-.3-.85-.76-.85h-3.4c-.34,0-.66,.22-.75,.55-.37,1.36-1.68,1.97-3.59,1.97-2.48,0-3.98-1.28-4.23-4.23h12.04c.42,0,.76-.34,.76-.76v-.81c0-5.91-3.54-8.79-8.57-8.79m3.68,7.4h-7.77c.44-2.37,1.75-3.39,4.08-3.39s3.68,1.06,3.68,3.1v.29Z"/><path d="M49.25,0C22.05,0,0,22.05,0,49.25s22.05,49.25,49.25,49.25,49.25-22.05,49.25-49.25S76.46,0,49.25,0M26.46,22.62c-1.02,1.47-1.36,2.34-2.72,4.03-.08,.1-.99,1.02-2.16,1.83-2.04,1.41-4.43,1.84-6.79,2.38-1.93,.45-4.79,1.75-5.04-1.47-.1-1.27,.64-2.42,1.18-3.58C16.65,13.52,28.46,5.37,42.74,4.67c.85-.04,1.76-.22,2.51,.19,.61,.33,.83,.68,.85,1.05,.02,.7-.71,1.44-1.04,2.12-.64,1.32-.43,2.63-1.42,3.87-1.36,1.69-1.33,3.01,.03,4.47,1.06,1.15,1.11,2.59,.59,3.89-.44,1.09-1.34,1.94-2.35,2.5-1.69,.92-3.4,1.25-5.28,1.98-2.21,.85-4.38,1.54-5.51,.86-.88-.53-.5-1.87,.35-2.8,.46-.51,1.55-1.62,2.6-3.04,.95-1.29,.98-2.61,.03-3.08-1.37-.69-5.18,1.46-7.64,5.96m9.12,26.74c.23-.19,.44-.36,.62-.55,.49-.49,.52-1.07,.56-1.8,0-.13,.02-.26,.03-.4,.08-.98,.77-1.7,1.68-1.76,.46-.03,.9,.13,1.25,.44,.22,.2,.4,.45,.53,.75,.28,.65,.37,1.51,.28,2.55-.08,.9-.4,1.76-.92,2.47-.87,1.19-2.29,2.01-3.62,2.08h-.07c-.36,.02-1.03-.02-1.47-.45-.25-.25-.38-.58-.38-.97,.02-1.16,.8-1.8,1.49-2.37m-1.93-.13c-.15,.05-.31,.07-.45,.08-.45,.03-.85-.12-1.16-.43-.22-.22-.3-.57-.21-.91,.19-.73,.81-1.41,1.4-1.97,.37-.35,.76-.55,1.14-.57,.3-.02,.57,.08,.79,.27,.29,.26,.45,.67,.48,1.2,.05,.98-1.01,2.04-1.99,2.33m5.15-20.02c-1.23,1.32-4.26,1.11-4.47-1.03-.14-1.38,2.1-2.1,3.15-2.09,.63,0,1.29,.25,1.66,.75,.03,.04,.06,.09,.09,.14,.4,.7,.14,1.64-.42,2.23m52.91,22.19c-.81,.58-1.85,.73-2.6,1.41-1.18,1.06-1.72,2.62-3.05,3.58-3.18,2.3-5.75,2.06-6.69,4.25-.57,1.34-.15,2.31-.26,4.35-.12,2.27-1.02,4.13-2.88,5.52-2.07,1.55-3.49,1.59-4.06,2.74-.62,1.24-.19,1.9-.08,3.69,.08,1.3-.37,2.37-1.02,3.18-1.96,2.47-3.08,3.07-4.15,5.25-1.59,3.26-4.35,5.99-7.03,8.47-1.11,1.03-2.39,2.07-3.91,2.11-1.76,.05-3.27-1.3-4.22-2.78-1.69-2.67-2.26-5.67-5.05-7.51-1.81-1.2-4.22-2.09-7.03-3.12-2.67-.97-4.72-1.49-6.74-3.47-1.05-1.03-1.53-1.9-1.68-2.19-1.57-3.01-.67-6.12-.52-6.62,.12-.39,1.1-3.43,4.18-5.23,2.44-1.43,4.86-1.29,6.88-1.15,.69,.05,1.26,.13,1.8,.24,.98,.2,1.74,.42,2.38,.64,1.71,.59,2.81,1.11,3.6,1.45,.67,.29,5.78,2.24,10.24,.99,2.66-.74,4.73-2.82,4.36-4.74-.33-1.69-1.21-2.42-4.57-2.42-5.32,0-7.58-2.65-9.13-1.41-1.17,.93,.32,2.71-.42,3.47-.42,.43-1.01,.4-1.15,.38-1.22-.14-2.29-1.35-3.38-2.59-.97-1.1-2.44-1.52-4.03-1.1-.94,.25-1.73,.94-2.34,1.98-.77,1.31-2.53,3.11-4.65,2.71-2.4-.45-2.88-3.18-2.06-4.82,.69-1.37,2.19-2.07,3.52-2.67,1.42-.64,2.73-1.1,3.59-2.44,4.11-6.41,6.27-7.94,9.86-7.84,1.43,.04,2.9,.1,4.3-.22,.79-.18,1.67-.51,2.28-1.07,.77-.72,.98-1.77-.06-2.24-.83-.38-1.65,.22-2.49,.27-1.58,.1-3.15-.88-3.23-2.57-.09-1.8,1.49-3.19,1.49-4.95,0-1.57-1.51-1.76-2.4-.65-1.09,1.35-1.43,3.18-1.21,4.87,.29,2.19-1.4,5.34-4.21,5.04-1.8-.19-4.17-1.41-4.33-3.96-.2-3.27,2.42-4.35,4.62-8.06,2.76-4.67,6.02-6.23,9.17-6.43,4.47-.27,4.23,4.45,7.42,3.35,3.27-1.12,4.35-5.1,3.87-12.99-.22-3.66,2.78-4.97,6.01-4.64,3.03,.31,5.62,1.3,8.09,3.01,3.38,2.34,4.97,4.23,7.13,6.85,1.47,1.77,2.76,3.69,3.83,5.73,2.12,4,4.13,7.76,4.21,12.3,.06,3,.1,5.19-.43,8.13-.22,1.2-.71,3.17-1.78,3.93"/></symbol>
+<symbol id="logo-rgb" viewBox="0 0 316.26 98.51"><path d="M35.65,46.9c-.03-.53-.19-.94-.48-1.2-.22-.2-.49-.29-.79-.27-.37,.02-.77,.22-1.14,.57-.59,.56-1.22,1.23-1.4,1.97-.09,.34,0,.69,.21,.91,.3,.31,.7,.46,1.16,.43,.15,0,.3-.04,.45-.08,.98-.29,2.04-1.35,1.99-2.33"/><path d="M38.81,29.21c.55-.59,.82-1.52,.42-2.23-.03-.05-.06-.09-.09-.14-.37-.5-1.03-.75-1.66-.75-1.04,0-3.28,.71-3.15,2.09,.21,2.14,3.24,2.34,4.47,1.03"/><path d="M38.48,44.86c-.91,.05-1.6,.77-1.68,1.76-.01,.14-.02,.27-.03,.4-.04,.73-.08,1.31-.56,1.8-.19,.19-.4,.36-.62,.55-.69,.57-1.48,1.21-1.49,2.37,0,.39,.12,.72,.38,.97,.44,.43,1.11,.47,1.47,.45h.07c1.33-.08,2.75-.9,3.62-2.09,.52-.71,.84-1.57,.92-2.47,.09-1.04,0-1.9-.28-2.55-.13-.3-.3-.55-.53-.75-.35-.31-.79-.46-1.25-.44"/><path d="M49.25,0C22.05,0,0,22.05,0,49.26s22.05,49.25,49.25,49.25,49.25-22.05,49.25-49.25S76.46,0,49.25,0m16.84,12.06c-1.08,1.29-1.52,2.8-1.45,4.03,.48,7.89-.6,11.87-3.87,12.99-3.2,1.1-2.95-3.63-7.43-3.35-3.15,.19-6.42,1.76-9.17,6.43-2.19,3.72-4.82,4.8-4.62,8.06,.16,2.54,2.53,3.77,4.33,3.96,2.82,.3,4.5-2.85,4.21-5.04-.22-1.68,.12-3.52,1.21-4.87,.89-1.1,2.41-.92,2.4,.65,0,1.77-1.58,3.15-1.49,4.96,.08,1.69,1.66,2.67,3.23,2.57,.84-.05,1.66-.66,2.49-.27,1.03,.48,.83,1.52,.06,2.24-.6,.56-1.48,.89-2.28,1.07-1.41,.32-2.87,.26-4.3,.22-3.59-.1-5.75,1.44-9.86,7.84-.86,1.33-2.16,1.8-3.59,2.43-1.33,.6-2.83,1.3-3.52,2.67-.82,1.64-.34,4.36,2.06,4.82,2.12,.4,3.88-1.4,4.65-2.71,.61-1.04,1.4-1.74,2.34-1.98,1.59-.41,3.06,0,4.03,1.1,1.09,1.24,2.16,2.45,3.38,2.59,.15,.02,.74,.05,1.15-.38,.74-.76-.74-2.54,.42-3.47,1.55-1.24,3.81,1.41,9.13,1.41,3.36,0,4.24,.73,4.57,2.42,.38,1.92-1.7,4-4.35,4.74-4.46,1.25-9.57-.7-10.24-.99-.79-.34-1.88-.86-3.6-1.45-.64-.22-1.4-.43-2.38-.64-.54-.11-1.11-.19-1.8-.24-2.02-.14-4.43-.28-6.87,1.15-3.08,1.81-4.06,4.84-4.18,5.23-.15,.5-1.05,3.61,.52,6.62,.15,.29,.63,1.16,1.68,2.19,2.02,1.98,4.07,2.5,6.74,3.47,4.74,1.73,8.34,3.09,9.86,6.15,.22,.45,.94,1.92,.34,2.93-.67,1.11-2.67,1.03-3.61,.99-10.61-.48-19.15-5.84-19.15-5.84-5.15-3.26-9.49-7-13.09-11.86-7.61-10.28-8.32-20.89-8.32-25.65,0-6.45,1.47-13.58,3.8-15.98,2.98-3.07,7.97-1.97,12.06-4.8,1.17-.81,2.07-1.72,2.15-1.82,1.36-1.69,1.7-2.56,2.72-4.03,2.46-4.5,6.27-6.64,7.64-5.96,.95,.47,.92,1.79-.03,3.08-1.05,1.42-2.14,2.53-2.6,3.04-.85,.93-1.22,2.28-.35,2.8,1.13,.68,3.3,0,5.51-.86,1.88-.73,3.59-1.06,5.28-1.98,1.01-.55,1.92-1.4,2.35-2.49,.52-1.31,.47-2.75-.59-3.89-1.36-1.46-1.39-2.77-.03-4.47,1.87-2.33,.44-3.56,2.37-4.96,1.26-.91,4.03-1.72,10.7-.59,.94,.16,4.2,.8,7.64,2.12,2.83,1.09,2.4,2.82,1.76,3.59m22.81,55.3s-5.26,12.87-18.84,20.15c-.62,.33-2.23,.97-3.01,.31-.78-.66-.32-2.02-.12-2.44,1.06-2.18,2.18-2.78,4.15-5.25,.65-.81,1.09-1.89,1.02-3.18-.1-1.79-.54-2.45,.08-3.69,.58-1.15,1.99-1.2,4.06-2.74,1.86-1.39,2.75-3.26,2.88-5.52,.11-2.04-.31-3.01,.26-4.35,.93-2.19,3.5-1.95,6.69-4.25,2.26-1.64,2.78-4.67,4.89-4.32,1.86,.31,1.38,3.83,.89,6.17-.99,4.73-2.94,9.12-2.93,9.12"/><path d="M139.79,50.01c0-7.36-4.51-11.84-11.84-11.84h-8.02c-.36,0-.64,.29-.64,.65v22.46c0,.35,.29,.64,.64,.64h8.78c6.86,0,11.08-4.48,11.08-11.91m-11.15,9.17h-6.32v-18.26h5.7c5.41,0,8.74,3.43,8.74,9.1s-3.07,9.17-8.12,9.17"/><path d="M151.99,62.21c4.39,0,7.42-2.15,7.94-5.59,.06-.38-.25-.73-.64-.73h-1.42c-.3,0-.56,.21-.62,.5-.47,2.06-2.44,3.36-5.22,3.36-3.5,0-5.81-2.38-5.99-6.17h13.32c.36,0,.64-.29,.64-.64v-.69c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06m0-15.95c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M193.5,47.84c.35,0,.63-.28,.64-.63,0-.32,0-.6,0-.78,0-5.41-4.3-8.63-10.29-8.63-6.75,0-11.95,5.02-11.95,12.45s5.02,12.02,11.77,12.02c4.73,0,7.36-2.06,8.08-4.76h.04c-.06,1.37-.14,2.72-.22,3.71-.03,.38,.26,.7,.64,.7h1.5c.35,0,.64-.29,.64-.64v-10.12c0-.36-.29-.65-.64-.65h-10.08c-.35,0-.64,.29-.64,.65v.95c0,.35,.29,.64,.64,.64h7.7v.69c0,3.57-2.92,6.24-7.65,6.24s-8.74-3.65-8.74-9.38,3.9-9.74,8.91-9.74c4.29,0,7.47,2.24,7.47,6.03,0,.18,0,.38,0,.6,0,.36,.28,.66,.64,.66h1.52Z"/><path d="M202.26,49.25h-.04l.06-4.51c0-.36-.29-.65-.65-.65h-1.59c-.36,0-.64,.29-.64,.64v16.54c0,.35,.29,.64,.64,.64h1.6c.35,0,.64-.29,.64-.64v-7.26c0-4.44,2.13-7.61,5.77-7.61,2.92,0,4.15,1.69,4.15,4.98,0,.73-.03,1.37-.07,1.87-.03,.37,.27,.69,.64,.69h1.34c.33,0,.61-.25,.64-.58,.06-.7,.12-1.66,.12-2.59,0-4.3-2.13-6.97-6.14-6.97s-5.67,2.34-6.5,5.45"/><path d="M236.13,53.04c0-5.63-3.5-9.24-9.02-9.24s-9.02,3.61-9.02,9.24,3.5,9.17,9.02,9.17,9.02-3.57,9.02-9.17m-9.02,6.57c-3.75,0-6.14-2.56-6.14-6.57s2.38-6.64,6.14-6.64,6.14,2.6,6.14,6.64-2.38,6.57-6.14,6.57"/><path d="M230.21,41.94c1.07,0,1.94-.87,1.94-1.94s-.87-1.94-1.94-1.94h-.06c-1.07,0-1.94,.87-1.94,1.94s.87,1.94,1.94,1.94h.06Z"/><path d="M224.07,41.94c1.07,0,1.94-.87,1.94-1.94s-.87-1.94-1.94-1.94h-.06c-1.07,0-1.94,.87-1.94,1.94s.87,1.94,1.94,1.94h.06Z"/><path d="M243.04,48.89h-.04l.06-4.15c0-.36-.28-.65-.64-.65h-1.59c-.36,0-.65,.29-.65,.64v16.54c0,.35,.29,.64,.65,.64h1.6c.35,0,.64-.29,.64-.64v-8.13c0-4.26,2.63-6.75,6.71-6.75,3.83,0,5.56,1.95,5.56,4.98v9.9c0,.35,.29,.64,.64,.64h1.6c.36,0,.64-.29,.64-.64v-10.51c0-4.26-2.78-6.97-7.47-6.97-4.26,0-6.75,1.98-7.72,5.09"/><path d="M270.57,43.8c-4.84,0-7.87,2.13-7.87,5.67,0,.14,0,.3,.01,.47,.02,.34,.3,.61,.64,.61h1.4c.36,0,.64-.29,.64-.65h0c0-2.42,1.8-3.65,5.09-3.65,3.64,0,5.45,1.48,5.45,4.55v1.3h-7.26c-4.77,0-6.53,2.17-6.53,4.69,0,3.36,2.56,5.41,6.61,5.41,4.44,0,6.68-1.77,7.29-4.51h.04c-.03,1.35-.08,2.65-.12,3.55-.01,.37,.28,.67,.64,.67h1.57c.36,0,.64-.29,.64-.64v-10.22c0-4.66-3.03-7.26-8.27-7.26m5.38,10.65c0,3.25-2.56,5.31-6.61,5.31-2.82,0-4.48-1.15-4.48-2.96s1.16-2.6,4.08-2.6h7v.25Z"/><path d="M128.09,91.17v-19.67c0-.38,.31-.69,.69-.69h6.49c.38,0,.69-.31,.69-.69v-1.33c0-.38-.31-.69-.69-.69h-17.4c-.38,0-.69,.31-.69,.69v1.33c0,.38,.31,.69,.69,.69h6.5c.38,0,.69,.31,.69,.69v19.67c0,.38,.31,.69,.69,.69h1.66c.38,0,.69-.31,.69-.69"/><path d="M154.27,81.32v9.85c0,.38,.31,.68,.69,.68h1.51c.38,0,.69-.31,.69-.68v-10.47c0-4.26-2.78-6.97-7.47-6.97-4.26,0-6.75,2.02-7.72,5.12h-.04c0-.65,.07-2.78,.07-3.75v-7.58c0-.38-.31-.69-.69-.69h-1.52c-.38,0-.69,.31-.69,.69v23.64c0,.38,.31,.68,.69,.68h1.52c.38,0,.69-.31,.69-.68v-7.72c0-4.51,2.63-7.11,6.71-7.11,3.83,0,5.56,1.95,5.56,4.98"/><path d="M177.14,85.83h-1.38c-.31,0-.57,.21-.64,.51-.48,2.05-2.45,3.35-5.22,3.35-3.5,0-5.81-2.38-5.99-6.17h13.31c.36,0,.66-.3,.66-.66v-.67c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06c4.38,0,7.41-2.14,7.94-5.57,.06-.4-.26-.75-.66-.75m-7.28-9.64c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M211.55,80.45h-10c-.38,0-.69,.31-.69,.69v.87c0,.38,.31,.69,.69,.69h7.65v.69c0,3.57-2.92,6.24-7.65,6.24s-8.74-3.64-8.74-9.38,3.9-9.75,8.92-9.75c4.29,0,7.47,2.24,7.47,6.03,0,.18,0,.37,0,.57,0,.38,.31,.7,.69,.7h1.44c.37,0,.68-.3,.69-.67,0-.31,0-.57,0-.74,0-5.41-4.3-8.63-10.29-8.63-6.75,0-11.95,5.02-11.95,12.45s5.02,12.02,11.77,12.02c4.73,0,7.36-2.06,8.09-4.77h.03c-.06,1.35-.13,2.68-.22,3.66-.03,.4,.28,.74,.68,.74h1.41c.38,0,.68-.31,.68-.69v-10.03c0-.38-.31-.69-.68-.69"/><path d="M231.95,83.88c.36,0,.65-.27,.68-.63,.06-.69,.12-1.64,.12-2.55,0-4.29-2.13-6.97-6.14-6.97s-5.67,2.35-6.5,5.45h-.04l.06-4.47c0-.38-.3-.7-.69-.7h-1.51c-.38,0-.68,.31-.68,.69v16.46c0,.38,.31,.68,.68,.68h1.52c.38,0,.68-.3,.68-.68v-7.22c0-4.44,2.13-7.62,5.78-7.62,2.92,0,4.15,1.7,4.15,4.98,0,.71-.03,1.33-.07,1.83-.03,.4,.28,.74,.68,.74h1.25Z"/><path d="M252.81,82.19c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06c4.37,0,7.39-2.13,7.93-5.54,.07-.41-.27-.78-.68-.78h-1.34c-.32,0-.59,.22-.66,.53-.49,2.04-2.45,3.33-5.21,3.33-3.5,0-5.81-2.38-5.99-6.17h13.28c.38,0,.68-.31,.68-.68v-.65Zm-2.67-.76h-11.19c.54-3.39,2.67-5.23,5.85-5.23,3.39,0,5.34,1.88,5.34,5.02v.22Z"/><path d="M264.95,92.15c4.37,0,7.39-2.13,7.93-5.54,.07-.41-.27-.78-.68-.78h-1.34c-.32,0-.59,.22-.66,.53-.49,2.04-2.45,3.33-5.22,3.33-3.5,0-5.81-2.38-5.99-6.17h13.28c.38,0,.69-.31,.69-.69v-.65c0-5.31-3-8.45-8.08-8.45-5.34,0-8.77,3.65-8.77,9.35s3.46,9.06,8.84,9.06m0-15.95c3.39,0,5.34,1.88,5.34,5.02v.22h-11.19c.54-3.39,2.67-5.23,5.85-5.23"/><path d="M287.7,73.74c-4.26,0-6.75,1.99-7.73,5.09h-.04l.06-4.1c0-.38-.3-.7-.69-.7h-1.51c-.38,0-.68,.31-.68,.68v16.46c0,.38,.31,.68,.68,.68h1.52c.38,0,.69-.31,.69-.68v-8.09c0-4.26,2.64-6.75,6.71-6.75,3.83,0,5.56,1.95,5.56,4.98v9.85c0,.38,.31,.68,.68,.68h1.52c.38,0,.69-.31,.69-.68v-10.47c0-4.26-2.78-6.97-7.47-6.97"/><path d="M313.56,83.16c-1.23-.68-2.6-.94-5.38-1.23-2.35-.25-4.11-.47-4.98-.83-1.05-.43-1.15-1.3-1.15-2.02,0-1.77,1.98-2.89,5.05-2.89s4.5,1.04,4.76,3.28c.04,.35,.33,.61,.68,.61h1.32c.4,0,.72-.34,.69-.74-.27-3.55-2.55-5.61-7.55-5.61s-7.83,2.17-7.83,5.52c0,1.3,.51,2.6,1.48,3.32,1.08,.79,2.85,1.15,5.77,1.41,2.2,.22,4.08,.43,4.91,.83,.9,.43,1.12,1.12,1.12,1.84,0,1.91-1.77,3.03-5.45,3.03-3.38,0-4.88-1.16-5.13-3.17-.04-.35-.33-.62-.68-.62h-1.31c-.4,0-.72,.34-.69,.74,.26,3.09,2.28,5.51,7.84,5.51s8.3-2.09,8.3-5.59c0-1.34-.58-2.71-1.77-3.39"/><path d="M141.69,8.04h-4.57c-.33,0-.62,.21-.72,.52l-6.1,18.15h-.07l-6.24-18.16c-.1-.31-.39-.51-.72-.51h-5.27c-.49,0-.83,.49-.65,.95l8.57,22.56c.11,.29,.4,.49,.71,.49h6.39c.32,0,.6-.19,.71-.49l8.6-22.56c.18-.46-.16-.95-.65-.95"/><path d="M149.32,14.02h-4.02c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76V14.78c0-.42-.34-.76-.76-.76"/><path d="M165.76,13.73c-4.08,0-6.2,1.64-7.11,5.07h-.07c.11-1.35,.22-3.39,.22-4.08V7.52c0-.42-.34-.76-.76-.76h-4.02c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-7.81c0-3.43,1.75-5.14,4.67-5.14,2.48,0,3.9,1.13,3.9,3.68v9.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-10.51c0-4.67-2.81-7.04-7.15-7.04"/><path d="M187.56,13.73c-3.54,0-5.47,2.01-6.24,5.43h-.07l.18-4.35c.02-.43-.33-.79-.76-.79h-3.99c-.42,0-.76,.34-.76,.76V31.27c0,.42,.34,.76,.76,.76h4.02c.42,0,.76-.34,.76-.76v-7.01c0-4.01,1.64-5.94,4.01-5.94,1.75,0,2.81,1.06,2.81,3.68,0,.38-.02,.93-.05,1.53-.03,.44,.32,.81,.76,.81h3.51c.4,0,.73-.31,.76-.7,.06-.92,.13-2.07,.13-2.87,0-4.67-2.15-7.04-5.83-7.04"/><path d="M224.81,13.73c-5.47,0-8.68,2.15-8.68,5.8,0,.11,0,.22,0,.34,.02,.4,.36,.72,.76,.72h3.61c.42,0,.76-.34,.76-.76h0c0-1.46,1.2-2.34,3.28-2.34,2.55,0,3.79,.87,3.79,3.06v1.2h-5.87c-4.78,0-6.89,2.15-6.89,5.1,0,3.65,2.92,5.47,7.11,5.47,3.28,0,5.32-1.38,5.87-3.94h.04c0,.81-.08,1.92-.17,2.82-.04,.45,.31,.83,.76,.83h3.94c.42,0,.76-.34,.76-.76v-10.18c0-4.81-3.35-7.37-9.08-7.37m3.54,11.38c0,2.19-1.68,3.46-4.56,3.46-2.01,0-3.21-.73-3.21-2.11,0-1.02,.91-1.71,2.41-1.71h5.36v.36Z"/><path d="M243.45,18.32h5c.42,0,.76-.34,.76-.76v-2.78c0-.42-.34-.76-.76-.76h-5s0,0,0,0v-3.32c0-.42-.34-.76-.76-.76h-3.11c-.39,0-.72,.29-.76,.68l-.19,1.83c-.11,1.09-.4,1.57-1.24,1.57h-1.39c-.42,0-.76,.34-.76,.76v2.78c0,.42,.34,.76,.76,.76h1.9v7.51c0,4.01,2.01,6.49,7.62,6.49,1.08,0,2.17-.15,2.88-.28,.36-.06,.63-.38,.63-.75v-2.67c0-.46-.41-.81-.86-.75-.55,.07-1.17,.11-1.65,.11-2.19,0-3.06-.58-3.06-2.44v-7.22"/><path d="M147.31,6.66c-1.78,0-3.22,1.44-3.22,3.22s1.44,3.22,3.22,3.22,3.22-1.44,3.22-3.22-1.44-3.22-3.22-3.22"/><path d="M221.13,12.85c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.97,1.33-2.97,2.97,1.33,2.97,2.97,2.97"/><path d="M228.56,12.85c1.64,0,2.97-1.33,2.97-2.97s-1.33-2.97-2.97-2.97-2.98,1.33-2.98,2.97,1.33,2.97,2.98,2.97"/><path d="M204.93,13.73c-6.09,0-9.81,3.54-9.81,9.48s3.72,9.12,9.7,9.12c4.78,0,8.08-2.08,8.61-5.68,.07-.45-.3-.85-.76-.85h-3.4c-.34,0-.66,.22-.75,.55-.37,1.36-1.68,1.97-3.59,1.97-2.48,0-3.98-1.28-4.23-4.23h12.04c.42,0,.76-.34,.76-.76v-.81c0-5.91-3.54-8.79-8.57-8.79m3.68,7.4h-7.77c.44-2.37,1.75-3.39,4.08-3.39s3.68,1.06,3.68,3.1v.29Z"/></symbol>
+</svg>
+
+<div class="site" id="site" lang="fi" data-world="etusivu">
+
+
+<header class="top">
+  <div class="wrap top__in">
+    <a class="brand" href="#etusivu" data-view="etusivu">Johanna Muurinen</a>
+    <nav class="nav" aria-label="Päävalikko">
+      <a href="#politiikka" data-view="politiikka">Politiikka</a>
+      <a href="#tutkimus" data-view="tutkimus">Tutkimus</a>
+      <a href="#hevoset" data-view="hevoset">Hevoset</a>
+      <a class="nav__cta" href="#mukaan" data-view="etusivu" data-anchor="mukaan">Tule mukaan</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ ETUSIVU ============ -->
+<div id="view-etusivu">
+
+  <section class="hero on-deep">
+    <div class="wrap hero__in">
+      <div class="stack stack--lg">
+        <p class="eyebrow">Eduskuntavaalit 2027 · Vihreät · Uusimaa</p>
+        <h1>Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.</h1>
+        <p class="lead">Olen Johanna Muurinen, tutkija, mikrobiologian dosentti ja kuntapäättäjä Sipoosta. Olen Vihreiden ehdokas Uudenmaan vaalipiirissä kevään 2027 eduskuntavaaleissa.</p>
+        <div class="actions">
+          <a class="btn" href="#politiikka" data-view="politiikka">Miksi olen ehdolla</a>
+          <a class="btn btn--ghost" href="#mukaan" data-view="etusivu" data-anchor="mukaan">Tule mukaan</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <div class="photo photo--img">
+          <img src="kuvat/johanna-ja-hevonen.jpg" width="401" height="401" alt="Johanna Muurinen hymyilee poski hevosen päätä vasten.">
+        </div>
+        <figcaption class="portrait__cap">
+          <svg class="logo logo--nega portrait__logo" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-nega"/></svg>
+          <span class="portrait__name">Johanna<br>Muurinen</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="Vaalien päivämäärät">
+    <div class="wrap strip__in">
+      <div class="fact">
+        <span class="fact__label">Ehdokasnumero</span>
+        <span class="fact__value"><span class="numero" aria-hidden="true">?</span></span>
+        <span class="fact__sub">Numerot vahvistetaan 18.3.2027.</span>
+      </div>
+      <div class="fact">
+        <span class="fact__label">Ennakkoäänestys</span>
+        <span class="fact__value">7.–13.4.2027</span>
+        <span class="fact__sub">Kotimaassa. Ulkomailla 7.–10.4.2027.</span>
+      </div>
+      <div class="fact">
+        <span class="fact__label">Vaalipäivä</span>
+        <span class="fact__value">18.4.2027</span>
+        <span class="fact__sub" id="paivia">189 päivää vaalipäivään.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap stack">
+      <h2>Kuka olen</h2>
+      <p class="measure">Olen ehdokas, tutkija ja ratsastaja. Jokaisella on tällä sivustolla oma osionsa.</p>
+    </div>
+  </section>
+  <nav class="roles" aria-label="Sivuston osiot">
+    <a class="role role--pol" href="#politiikka" data-view="politiikka">
+      <span class="role__head">
+        <span class="role__label">Politiikka</span>
+        <span class="role__word">Poliitikko</span>
+      </span>
+      <span class="role__body">
+        <span>Vihreiden eduskuntavaaliehdokas Uudellamaalla ja kuntapäättäjä Sipoossa.</span>
+        <span class="role__go">Politiikka →</span>
+      </span>
+    </a>
+    <a class="role role--tut" href="#tutkimus" data-view="tutkimus">
+      <span class="role__head">
+        <span class="role__label">Tutkimus</span>
+        <span class="role__word">Tutkija</span>
+      </span>
+      <span class="role__body">
+        <span>Mikrobiologian dosentti. Tutkin antibioottiresistenssiä ja muita mikrobiuhkia.</span>
+        <span class="role__go">Tutkimus →</span>
+      </span>
+    </a>
+    <a class="role role--rat" href="#hevoset" data-view="hevoset">
+      <span class="role__head">
+        <span class="role__label">Hevoset</span>
+        <span class="role__word">Hevos&shy;ihminen</span>
+      </span>
+      <span class="role__body">
+        <span>Hevosharrastaja ja kouluratsastaja.</span>
+        <span class="role__go">Hevoset →</span>
+      </span>
+    </a>
+  </nav>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Miksi olen ehdolla</h2>
+        <p class="pull">Tavoitteeni on demokraattinen ja vapaa Suomi, jossa elämäntapamme on kestävä.</p>
+      </div>
+      <ol class="reasons">
+        <li>
+          <div class="stack">
+            <h3>Tutkittu tieto ei löydä tietään päätöksiin.</h3>
+            <p>Haluan, että päätösten pitkäaikaiset vaikutukset tunnetaan ennen kuin niistä äänestetään.</p>
+          </div>
+        </li>
+        <li>
+          <div class="stack">
+            <h3>En tyydy siihen, että tarjolla on vain kurjuutta ja kipeitä päätöksiä.</h3>
+            <p>Suomi on ennenkin kääntänyt vaikeudet voitoksi. Nyt on aika rakentaa kestävää kasvua vihreän siirtymän ratkaisuista.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band band--sand">
+    <div class="wrap stack stack--lg">
+      <h2>Kantani</h2>
+      <div class="themes themes--six">
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Kilpailukykyä tutkimuksesta ja innovaatioista</h3>
+          <p>Suomen kilpailukyky syntyy siitä, että osaaminen, raaka-aineet ja data jalostetaan arvokkaiksi tuotteiksi täällä.</p>
+        </a>
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Luonnon monimuotoisuus suojaa myös terveyttä</h3>
+          <p>Luonnon monimuotoisuuden suojelu on myös tartuntatautien ja antibioottiresistenssin torjuntaa.</p>
+        </a>
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Huoltovarmuus alkaa pellolta</h3>
+          <p>Ruokaturva vahvistuu, kun maatilat tuottavat itse energiaa ja korvaavat väkilannoitteita kierrätyslannoitteilla.</p>
+        </a>
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Ympäristölle ja yhteiselle terveydelle haitalliset tuet</h3>
+          <p>Verorahoilla ei pidä tukea toimintaa, jonka haitat maksaa joku muu.</p>
+        </a>
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Julkiset palvelut ihmisiä varten, ei järjestelmiä</h3>
+          <p>Julkisen sektorin tehokkuutta pitää mitata palvelujen toimivuudella, ei henkilöstön määrällä.</p>
+        </a>
+        <a class="theme" href="#kantani" data-view="kantani">
+          <h3>Perustulo</h3>
+          <p>Perustulo sopii työelämään, jossa yhä useampi saa toimeentulonsa monesta lähteestä. Nykyinen järjestelmä passivoi ihmisiä eikä kannusta toimeliaisuuteen.</p>
+        </a>
+      </div>
+      <p><a class="textlink" href="#kantani" data-view="kantani">Lue kantani perusteluineen →</a></p>
+    </div>
+  </section>
+
+  <section class="band band--deep on-deep" id="mukaan">
+    <div class="wrap stack stack--lg">
+      <div class="stack">
+        <h2>Tule mukaan</h2>
+        <p class="lead">Kampanja tarvitsee tekijöitä, jakajia ja tukijoita.</p>
+      </div>
+      <div class="ways">
+        <div class="way">
+          <h3>Tee</h3>
+          <p>Tule mukaan kampanjatiimiin.</p>
+          <p>Kirjoita minulle: <a class="mail" href="mailto:johannan.tuki@gmail.com">johannan.tuki@gmail.com</a></p>
+        </div>
+        <div class="way">
+          <h3>Jaa</h3>
+          <p>Seuraa ja jaa julkaisujani.</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/johanna.muurinen" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.instagram.com/dr.dirt2017" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.threads.com/@dr.dirt2017" target="_blank" rel="noopener">Threads</a></li>
+            <li><a href="https://bsky.app/profile/jmuurine.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+            <li><a href="https://www.linkedin.com/in/johanna-muurinen-a08890116/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="way">
+          <h3>Tue</h3>
+          <p>Lahjoita kampanjalle Uudenmaan Vihreiden ehdokasgallerian kautta.</p>
+          <p><a class="btn" href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242&amp;valilehti=donate" target="_blank" rel="noopener">Lahjoita</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ POLITIIKKA ============ -->
+<div id="view-politiikka" hidden>
+
+  <section class="hero on-deep">
+    <div class="wrap hero__in">
+      <div class="stack stack--lg">
+        <p class="eyebrow">Politiikka</p>
+        <h1>Olen ehdolla eduskuntaan.</h1>
+        <p class="lead">Lähdin ehdolle, koska tutkittu tieto ei löydä tietään päätöksiin.</p>
+      </div>
+      <svg class="logo logo--nega hero__logo" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-nega"/></svg>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Miksi lähdin ehdolle</h2>
+        <p class="pull">Meillä on ratkaisujen avaimet moniin ongelmiin, mutta niitä ei käytetä.</p>
+      </div>
+      <div class="prose">
+        <p>Lähdin 28-vuotiaana yliopistoon, koska halusin tutkijaksi ja yrittää pelastaa maailman. Aika pian ymmärsin, ettei maailma pelastu yksin luonnontieteen keinoin ja että tutkimustulos ei muutu poliittiseksi päätökseksi itsestään.</p>
+        <p>Kuvaan tilannetta usein vertauksella. Ihmiskunta tarvitsee tuoleja, ja tutkijat valmistavat niihin sopivia puukappaleita. Kappaleet sopisivat yhteen täydellisesti, mutta kukaan ei kokoa niistä tuoleja. Meillä on siis ratkaisujen avaimet moniin ongelmiin, mutta niitä ei käytetä.</p>
+        <p>Politiikkaan minut houkutteli opiskelukaverini, joka toimi Sipoon kuntapolitiikassa. Hän kysyi, tiesinkö, että kuntapäättäjänä voisin olla siinä pöydässä, jossa päätetään viheryhteyden katkaisevasta rakennusluvasta. Sellainen päätös heikentää luonnon monimuotoisuutta, joka suojaa terveyttämme. Luonnonympäristöjä pirstova rakentaminen vaikuttaa esimerkiksi siihen, miten punkkeja levittävien kauriiden ja ihmisten elinpiirit risteävät. Kun tutkin asiaa, huomasin, että yllättävän moni kestävän kehityksen ja luontokadon kysymys ratkaistaan juuri kunnissa. Lähdin ehdolle, vaikka olin vasta hiljattain muuttanut Sipooseen ja minut tunsi vain kourallinen ihmisiä. Minusta tuli Vihreiden 1. varavaltuutettu. Rakennus- ja ympäristövaliokunnassa tuon nyt tutkittua tietoa päätöksiin esimerkiksi hajarakentamisesta.</p>
+        <p>Nyt haluan viedä tutkittua tietoa päätöksiin laajemmin. En tyydy siihen, että politiikan puhe pyörii kurjuuden ja kipeiden päätösten ympärillä, ikään kuin parempaan ei olisi mahdollisuuksia. Tutkijana olen tottunut etsimään ratkaisuja. Usein tieteellisen tutkimuksen lähtökohta on jokin ihmiskunnan ongelma, jota tutkimuksella pyritään ratkaisemaan. Itse olen muun muassa tutkinut EU-rahoitteisessa <a href="https://lex4bio.eu/" target="_blank" rel="noopener">LEX4BIO-hankkeessa</a> kierrätyslannoitteiden mikrobiologisia riskejä, koska pelko niistä on yksi syy siihen, että kierrätyslannoitteita vierastetaan. Tulokset olivat rauhoittavia: kierrätyslannoitteet eivät levitä antibioottiresistenssiä maatalousekosysteemeissä sen enempää kuin tavallinen karjanlanta. Kierrätyslannoitteet vähentäisivät maatalouden riippuvuutta fossiilisesta energiasta ja tuontilannoitteista ja edistäisivät kiertotaloutta. Ratkaisuja on siis olemassa, kunhan niitä otetaan käyttöön.</p>
+        <p>Jotta ratkaisuja syntyy myös tulevaisuudessa, tarvitsemme tutkimusta ja tuotekehitystä sekä niiden viisasta tukemista. Suomen kilpailukyvyn turvaaminen vaatii vahvaa panostusta yliopistojen perustutkimukseen. Näistä aineksista syntyy myös kestävää talouskasvua. Tutkimukseen ja innovaatioihin panostamisesta päätetään eduskunnassa, ja se on yksi monista syistä, miksi lähdin ehdolle eduskuntavaaleissa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Ohjenuorani</h2>
+        <ul class="theses">
+          <li>Luonnon kantokykyä ei saa ylittää.</li>
+          <li>Ihmisen sietokykyä ei saa ylittää.</li>
+          <li>Päätösten pitkäaikaisvaikutukset on otettava huomioon.</li>
+          <li>Yhtään laskua ei saa maksattaa tulevilla sukupolvilla.</li>
+        </ul>
+        <p class="theses__by">Erkki Pulliaisen teesit</p>
+      </div>
+      <div class="prose">
+        <p>Päätin ottaa poliittiseksi ohjenuorakseni eläintieteen professorin ja Vihreiden pitkäaikaisen kansanedustajan Erkki Pulliaisen teesit. Hänkin oli sekä tutkija että poliitikko.</p>
+        <p>Mikään näistä ei asetu vasemmisto–oikeisto-akselille, ja siksi ne jäävät helposti sivuun keskustelussa, joka jakautuu kyseisen akselin mukaan. Esimerkki omalta alaltani, maaperätieteestä: suurin osa peltomaistamme on savisia. Routa pitää ne viljelykelpoisina, koska jäätyminen ja sulaminen kuohkeuttavat maata. Jos talvet muuttuvat routimattomiksi, savimaat tiivistyvät ja sadot pienenevät. Tähän on olemassa suunnitelmia, mutta ne ovat jääneet muun poliittisen keskustelun varjoon. Jos kysymys jää ratkaisematta, seuraavilla sukupolvilla on käytössään vähemmän viljelykelpoista maata.</p>
+        <p>Nyt puhutaan paljon taloudesta ja valtionvelasta, ja huoli on aiheellinen. Ilmastonmuutos ja luontokato ovat kuitenkin myös talouskysymyksiä. <a href="https://valtioneuvosto.fi/-/10623/ilmastonmuutoksen-ja-luontokadon-kokonaistaloudellisia-vaikutuksia-ei-pystyta-nykyisin-arvioimaan-riittavan-tarkasti" target="_blank" rel="noopener">Valtiovarainministeriön mukaan</a> niiden kokonaistaloudellisia vaikutuksia ei tällä hetkellä pystytä arvioimaan riittävän tarkasti. Talouskeskustelusta puuttuvat siis keskeiset riskit, vaikka tutkijoilla olisi tarjota niistä tietoa ja lukujakin. Pienestä valtionvelasta ei ole iloa, jos ilmastonmuutoksen ja luontokadon laskut lankeavat tuleville sukupolville moninkertaisina. Näiden uhkien hillintä on edelleen tärkeintä, mutta myös sopeutua pitää. Ennakoiva sopeutuminen tulee halvemmaksi kuin vahinkojen korjaaminen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Miksi Vihreät</h2>
+        <p class="pull">Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.</p>
+      </div>
+      <div class="prose">
+        <p>Olen aina ollut luonnonystävä ja eläinrakas, ja Vihreät oli minulle harkittu valinta. Vihreiden arvot ovat minun arvojani. Tuon puolueeseen maaperä- ja maatalousosaamista, jota tarvitaan, kun ruoantuotantoa sopeutetaan muuttuvaan ilmastoon.</p>
+        <p>Vihreissä talous sovitetaan luonnon kantokyvyn rajoihin, ja markkinatalous ja yrittäjyys nähdään osana ratkaisuja. Markkinat ovat tehokkaita, mutta ne tarvitsevat suunnan. Kun luonnolle aiheutetut haitat hinnoitellaan oikein, luonto ja talous eivät ole toistensa vastakohtia. En halua tukea toimintaa, joka pysyy kannattavana vain siksi, että sen haitat jäävät muiden maksettaviksi.</p>
+        <p>Jokainen ihminen on samanarvoinen riippumatta siitä, kuka on tai keitä rakastaa. Uskon liberaaliin demokratiaan enkä halua maailmaa, jossa valtio päättää, mikä on kenellekin tarpeeksi.</p>
+        <p>Tavoitteeni on demokraattinen ja vapaa Suomi, jossa elämäntapamme on kestävä. Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.</p>
+        <p><a class="textlink" href="#kantani" data-view="kantani">Lue tarkemmin, mitä mieltä olen eri kysymyksistä →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--sand">
+    <div class="wrap split">
+      <div class="stack">
+        <h2>Kuntapolitiikka Sipoossa</h2>
+        <p>Sipoon kuntapolitiikassa lupasin perehtyä esitysten taustoihin ja päätösten vaikutuksiin. Saman haluan tehdä eduskunnassa.</p>
+      </div>
+      <div class="stack stack--lg">
+        <div class="stack">
+          <p class="eyebrow">Luottamustehtävät 2025–</p>
+          <ul class="posts">
+            <li>Vihreiden 1. varavaltuutettu</li>
+            <li>Rakennus- ja ympäristövaliokunnan jäsen</li>
+            <li>Kunnanhallituksen varajäsen</li>
+            <li>Kunnanhallituksen edustaja Sipoon Vesi ‑liikelaitoksen johtokunnassa</li>
+          </ul>
+        </div>
+        <p>Luottamustehtäväni Sipoossa alkoivat kuntavaalien jälkeen kesällä 2025. Ensimmäinen kokous, johon osallistuin, oli kunnanhallituksen kokous, jossa päätimme vuoden 2026 budjettiraamista. Kesällä aloitimme kuntastrategian laatimisen. Vihreä valtuustoryhmä sai strategiaan monia luonnon monimuotoisuutta ja kestävää kehitystä edistäviä kirjauksia. Seuraavaksi pyrimme siihen, että kirjaukset myös toteutetaan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack">
+        <h2>Valtuusto­aloitteet</h2>
+      </div>
+      <div class="stack">
+        <p>Varavaltuutettuna voin jättää valtuustoaloitteita silloin, kun sijaistan varsinaista jäsentä valtuustossa. Lisäksi voin laatia aloitteen, jonka Vihreä valtuustoryhmä päättää esittää.</p>
+        <ul class="posts">
+          <li><a href="https://sipoofi.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&amp;id=2025910-26" target="_blank" rel="noopener">Aloite luonnon monimuotoisuuden toimintaohjelman laatimisesta Sipooseen</a>, Vihreä valtuustoryhmä ym., valtuusto 9.6.2025</li>
+          <li><a href="https://sipoofi.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&amp;id=20261086-4" target="_blank" rel="noopener">Toimenpidealoite datakeskushankkeesta</a>, Sipoon valtuusto, kevät 2026</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Vaalit 2027</h2>
+        <svg class="logo logo--rgb" style="max-width:230px" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-rgb"/></svg>
+      </div>
+      <dl class="dates">
+        <dt>18.3.2027</dt><dd>Ehdokkaat ja ehdokasnumerot vahvistetaan.</dd>
+        <dt>7.–13.4.2027</dt><dd>Ennakkoäänestys kotimaassa. Ulkomailla ennakkoon voi äänestää 7.–10.4.2027.</dd>
+        <dt>18.4.2027</dt><dd>Vaalipäivä.</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="band band--deep on-deep">
+    <div class="wrap stack">
+      <h2>Kampanja tarvitsee tekijöitä, jakajia ja tukijoita.</h2>
+      <div class="actions"><a class="btn" href="#mukaan" data-view="etusivu" data-anchor="mukaan">Tule mukaan</a></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ KANTANI ============ -->
+<div id="view-kantani" hidden>
+
+  <section class="hero on-deep">
+    <div class="wrap hero__in">
+      <div class="stack stack--lg">
+        <p class="eyebrow">Politiikka · Kantani</p>
+        <h1>Mitä mieltä olen</h1>
+        <p class="lead">Ohessa kantani eri kysymyksiin. Perusteluni johdan ohjenuorastani: luonnon kantokykyä ja ihmisen sietokykyä ei saa ylittää, eikä laskuja saa jättää tuleville sukupolville.</p>
+      </div>
+      <svg class="logo logo--nega hero__logo" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-nega"/></svg>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap stack stack--lg">
+      <div class="stancelist">
+
+        <article class="stance">
+          <h3>Kilpailukykyä tutkimuksesta ja innovaatioista</h3>
+          <div class="prose">
+            <p class="stance__claim">Suomen kilpailukyky syntyy siitä, että osaaminen, raaka-aineet ja data jalostetaan arvokkaiksi tuotteiksi täällä.</p>
+            <p>Tutkimus ja tuotekehitys synnyttävät uusia tuotteita, yrityksiä ja työpaikkoja. Niistä löytyvät myös ne vihreän siirtymän ratkaisut, joille on kysyntää maailmalla. Siksi tutkimukseen panostaminen on talouspolitiikkaa.</p>
+            <p>Metsistämme tehdään lyhytikäisiä tuotteita, ja maankäyttösektori on muuttunut hiilinielusta päästölähteeksi. Jos jalostusaste nousisi, saataisiin esimerkiksi puusta enemmän arvoa: pitkäikäisiä tuotteita, kuten puurakennuksia ja huonekaluja, sekä materiaaleja, jotka korvaavat betonia, terästä ja muovia.</p>
+            <p>Datakeskukset ovat mahdollisuus, jos niistä jää hyötyä Suomeen: verotuloja, pysyviä työpaikkoja, osaamista ja sen kehittämistä sekä hukkalämpöä hyötykäyttöön. Sääntelyn pitää olla vahvaa ja ennakoivaa, jotta Suomeen ei synny pelkkiä halleja. Sipoon valtuustossa jätin datakeskushankkeesta <a href="https://sipoofi.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&amp;id=20261086-4" target="_blank" rel="noopener">toimenpidealoitteen</a>.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Ajan sitä, että tutkimuksen ja tuotekehityksen rahoituksen kasvusta pidetään kiinni, että puun käyttöä fossiilisten ja paljon päästöjä aiheuttavien materiaalien korvaajana selvitetään ja että datakeskushankkeita arvioidaan ympäristövaikutusten ohella myös sen mukaan, paljonko arvonlisää ne jättävät Suomeen.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Luonnon monimuotoisuus suojaa myös terveyttä</h3>
+          <div class="prose">
+            <p class="stance__claim">Luonnon monimuotoisuuden suojelu on myös tartuntatautien ja antibioottiresistenssin torjuntaa.</p>
+            <p>Moni vaarallinen epidemia on saanut alkunsa ihmisen aiheuttamasta ympäristömuutoksesta. Malesiassa metsäkato ajoi 1990-luvun lopulla hedelmälepakot sikatiloille, ja niiden levittämä Nipah-virus tappoi yli sata ihmistä. Suomessa vastaava ei ole todennäköistä, mutta kun metsiä hakataan ja viheryhteyksiä katkaistaan, punkkeja levittävät kauriit ja ihmiset kohtaavat yhä useammin.</p>
+            <p>Antibioottiresistenssi on ikivanha ja luonnollinen ilmiö. Bakteerit ovat kilpailleet keskenään antibiooteilla miljardeja vuosia, ja resistenssigeenejä on kaikkialla luonnossa. Monimuotoisessa mikrobiyhteisössä resistentit bakteerit eivät pääse helposti rikastumaan. Kun monimuotoisuus köyhtyy, niille vapautuu tilaa. Siksi luonnon monimuotoisuus voi toimia puskurina antibioottiresistenssiä vastaan.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Sipoossa tein <a href="https://sipoofi.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&amp;id=2025910-26" target="_blank" rel="noopener">valtuustoaloitteen</a> luonnon monimuotoisuuden toimintaohjelmasta. Eduskunnassa ajan sitä, että luonnon monimuotoisuus otetaan huomioon osana tartuntatautien ja antibioottiresistenssin torjuntaa.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Huoltovarmuus alkaa pellolta</h3>
+          <div class="prose">
+            <p class="stance__claim">Ruokaturva vahvistuu, kun maatilat tuottavat itse energiaa ja korvaavat väkilannoitteita kierrätyslannoitteilla.</p>
+            <p>Suomen maatalous on liian riippuvaista tuontienergiasta ja fossiilisilla polttoaineilla valmistetuista lannoitteista. Venäjän hyökkäyssota on näyttänyt, kuinka haavoittuva tämä riippuvuus on. Energiaveron palautukset helpottavat tilojen ahdinkoa hetkeksi, mutta ylläpitävät samaa riippuvuutta.</p>
+            <p>Maatalouden jätteistä ja sivuvirroista voi tuottaa biokaasua, ja kierrätyslannoitteet voivat tutkitusti korvata mineraalilannoitteita turvallisesti. Samalla eläintiloille kertyvät ravinteet saataisiin kasvinviljelytiloille, ja maaseudulle syntyisi uutta liiketoimintaa.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Ajan sitä, että maatalouden kriisituet kohdennetaan tilojen omaan uusiutuvaan energiaan, kuten biokaasuun, ja kierrätyslannoitteiden käyttöön.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Julkiset palvelut ihmisiä varten, ei järjestelmiä</h3>
+          <div class="prose">
+            <p class="stance__claim">Julkisen sektorin tehokkuutta pitää mitata palvelujen toimivuudella, ei henkilöstön määrällä.</p>
+            <p>Tehokkuus tarkoittaa, että tarvittavat palvelut tuotetaan mahdollisimman pienellä panoksella. Terveyspalvelujen käyttäjänä minusta tuntuu, että nyt hoidetaan usein järjestelmää eikä potilasta. Kun hoitopolku menee väärin heti alussa, kustannukset kasvavat myöhemmin. Toimiva palvelu on pitkällä aikavälillä myös halvempi.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Ajan sitä, että palvelut suunnitellaan käyttäjän näkökulmasta ja että puhelimessa tehtävän hoidon tarpeen arvioinnin vaikutukset hoidon laatuun ja kokonaiskustannuksiin selvitetään.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Perustulo</h3>
+          <div class="prose">
+            <p class="stance__claim">Perustulo sopii työelämään, jossa yhä useampi saa toimeentulonsa monesta lähteestä. Nykyinen järjestelmä passivoi ihmisiä eikä kannusta toimeliaisuuteen.</p>
+            <p>Esimerkki tiedeyhteisöstä: sama ihminen voi toimia yrittäjänä, tehdä väitöskirjaa, saada apurahaa ja olla välillä osa-aikaisissa palkkatöissä. Jos tulot eivät silti riitä elämiseen, useat tulolähteet vaikeuttavat tuen saamista. Nykyinen järjestelmä lähtee siitä, että tuenhakijan rehellisyyttä epäillään, ja vaatii todistamaan työttömyyttä yhä uudelleen. Tämä pakottaa ihmisen passiiviseksi ja luo toivottomuutta. Perustulo purkaisi toimeentuloloukut ja kannustaisi tarttumaan töihin tai kokeilemaan yrittäjyyttä.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Ajan <a href="https://www.vihreat.fi/perustulo/" target="_blank" rel="noopener">Vihreiden perustulomallia</a>. Siihen asti helpottaisin etuuksien yhdistämistä työ-, yrittäjä- ja apurahatuloihin.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Ympäristölle ja <a href="https://onehealth.fi/" target="_blank" rel="noopener">yhteiselle terveydelle</a> haitalliset tuet</h3>
+          <div class="prose">
+            <p class="stance__claim">Verorahoilla ei pidä tukea toimintaa, jonka haitat maksaa joku muu.</p>
+            <p>Suomi maksaa luonnolle ja ympäristölle haitallisia tukia <a href="https://www.hs.fi/alueet/art-2000012313670.html" target="_blank" rel="noopener">miljardiluokan summilla</a>. Pelkästään puupolttoaineiden verottomuuden arvo on ensi vuonna 470 miljoonaa euroa, yli kolminkertaisesti koko ympäristön- ja luonnonsuojelun määräraha. Tällaiset tuet vääristävät markkinoita ja siirtävät laskun tuleville sukupolville.</p>
+            <p>Esimerkki maataloudesta: osa maidontuotannon tuista maksetaan tuotannon määrän mukaan, joten tilan kannattaa kasvattaa eläinmäärää. Lisää eläimiä tarkoittaa lisää lantaa. Peltojen ravinnetilasta riippuen kaikkea lantaa ei välttämättä voi levittää siihen parhaiten soveltuville pelloille. Silloin levitykseen joudutaan käyttämään myös siihen huonosti soveltuvia peltoja, kuten turvemaita. Turvepellot tiivistyvät helposti, ja jos pohjaveden pintaa ei pidetä riittävän korkealla, niiltä vapautuu paljon kasvihuonekaasuja ja ravinteita vesistöihin.</p>
+            <p>Pidän tiettyä määrää maidontuotantoa Suomen oloissa järkevänä jo huoltovarmuuden vuoksi. Sen tukeminen pitää kuitenkin rakentaa niin, ettei se kannusta kasvattamaan eläinmäärää yli peltojen kantokyvyn. Ennen maidontuotantoa pyrkisin vähentämään sian- ja broilerinlihan tuotantoa, koska niihin liittyy suurempi eläintautien ja ihmisiin tarttuvien tautien riski sekä vakavia eläinten hyvinvointiin liittyviä ongelmia.</p>
+            <p>Turkistarhauksen tukemisesta pitää luopua, ja turkistarhaus pitää kieltää kohtuullisella siirtymäajalla. Polttoaineen hintaa en tukisi lainkaan. Jos tukea tarvitaan, kohdentaisin sen suoraan vaikeassa tilanteessa oleville pienituloisille, esimerkiksi niille, joilla on pitkä työmatka. Silloin he voivat itse päättää, käyttävätkö tuen polttoaineeseen vai vaikkapa bussilippuun.</p>
+            <p class="stance__do"><b>Mitä ajan</b>Ajan sitä, että haitalliset tuet kohdennetaan asteittain uudelleen. Maataloudessa tuki sidotaan tuotantomäärän sijaan tuotteen laatuun, jota määritettäessä otetaan huomioon vaikutukset yhteiseen terveyteen ja ympäristöön. Lisäksi kannatan lannan jalostamista kierrätyslannoitteeksi, jotta siitä tulee maitotiloille myös tulonlähde.</p>
+          </div>
+        </article>
+
+        <article class="stance">
+          <h3>Markkina&shy;vihreät</h3>
+          <div class="prose">
+            <p>Olen mukana Markkinavihreät-yhteisössä, joka tekee talouspainotteisia ehdotuksia vihreän siirtymän edistämiseksi.</p>
+            <p><a class="textlink" href="https://markkinavihreat.fi/ehdotukset/" target="_blank" rel="noopener">Lue yhteisön ehdotukset →</a></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--deep on-deep">
+    <div class="wrap stack">
+      <h2>Kampanja tarvitsee tekijöitä, jakajia ja tukijoita.</h2>
+      <div class="actions"><a class="btn" href="#mukaan" data-view="etusivu" data-anchor="mukaan">Tule mukaan</a></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ TUTKIMUS ============ -->
+<div id="view-tutkimus" hidden>
+
+  <section class="hero on-deep">
+    <div class="wrap hero__in">
+      <div class="stack stack--lg">
+        <p class="eyebrow">Tutkimus</p>
+        <h1>Tutkin mikrobeja. Ja lantaa.</h1>
+        <p class="lead">Olen mikrobiologian dosentti ja johdan Helsingin yliopistossa tutkimusryhmää. Tutkin, miten ihmisen toiminta muuttaa ympäristön mikrobistoa ja mitä siitä seuraa ihmisten, eläinten ja ympäristön yhteiselle terveydelle.</p>
+      </div>
+      <div>
+        <p class="trip__title">Aikamatka mikrobien historiaan</p>
+        <ol class="trip">
+          <li><b>Ennen maataloutta</b><span>Häiriintymättömät maakerrokset</span></li>
+          <li><b>Kivi- ja pronssikausi</b><span>Arkeologiset kaivaukset</span></li>
+          <li><b>1700-luvun Turku</b><span>Kaupungin ja teurastamon jätekerrokset</span></li>
+          <li><b>Nykypäivä</b><span>Maatilat ja kaatopaikat, myös kehittyvissä maissa</span></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <div class="stack">
+          <p class="eyebrow">Ympäristön monimuotoisuuden ja mikrobiuhkien yhteydet</p>
+          <h2>Mitä tutkin</h2>
+        </div>
+        <p class="pull">Onko monimuotoinen mikrobisto luonnollinen suoja antibioottiresistenssiä vastaan, ja onko maankäytön muutos vienyt tämän suojan?</p>
+      </div>
+      <div class="prose">
+        <p>Bakteerien yleistyvää antibioottiresistenssiä pidetään antibioottien käytön seurauksena. Se pitää paikkansa, mutta tarina on vajaa. Me ihmiset emme keksineet antibiootteja, vaan löysimme ne. Antibiootit ovat bakteerien ja muiden mikrobien tuottamia orgaanisia molekyylejä, jotka heikentävät bakteereja. Antibioottiresistenssi on ikivanha luonnonilmiö, joka juontaa juurensa bakteerien miljardeja vuosia kestäneeseen kilpailuun resursseista. Jo elonkehän alkutaipaleelta asti bakteerit ovat tuottaneet antibiootteja ja kehittäneet resistenssiä niitä vastaan.</p>
+        <p>Monimuotoisessa ja häiriintymättömässä mikrobiyhteisössä on paljon lajeja ja paljon erilaisia mikrobien tuottamia antibiootteja pieninä pitoisuuksina. Tällainen yhteisö näyttää pitävän resistenssin kurissa. Maatalous, asutus ja teollistuminen ovat köyhdyttäneet maaperän ja muun ympäristön mikrobistoa, jolloin erikoistuneille bakteereille vapautuu elintilaa. Tutkin, onko monimuotoisuuden häviäminen antibioottien käytön ohella luonut pohjaa nykyiselle antibioottiresistenssikriisille.</p>
+        <p>Tutkimusryhmämme menetelmää voi kutsua mikrobiarkeologiaksi. Tutkimme muinais-DNA:ta ja bakteereja, jotka ovat säilyneet lepotilassa satoja tai tuhansia vuosia, ja vertaamme mikrobiyhteisöjä eri aikakausilta. Alustavien tulosten mukaan nykyisten kliinisesti tärkeiden resistenssigeenien sukulaisia oli rikastunut jo 1700-luvun Turun jäte- ja ulostekerrostumiin, kauan ennen antibioottien aikaa. Tulokset on julkaistu ennen vertaisarviointia <a href="https://www.biorxiv.org/content/10.64898/2026.07.31.742145v1.full" target="_blank" rel="noopener">preprint-palvelussa</a>, ja käsikirjoitus on parhaillaan vertaisarvioitavana tieteellisessä lehdessä.</p>
+        <p>Tutkimusryhmämme hypoteesi on, että ympäristön ravinnekuormitus ja mikrobiyhteisöjen monimuotoisuutta heikentävä ihmistoiminta luovat elintilaa ihmisille ja muille eläimille haitallisille mikrobeille, myös resistenteille bakteereille. Jos hypoteesimme pitää, luonnon monimuotoisuuden suojelu ja ekosysteemien ennallistaminen voisivat olla yksi keino torjua antibioottiresistenssiä antibioottien vastuullisen käytön rinnalla. Niillä voisi ehkäistä myös monia maatalouden mikrobiuhkia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tight">
+    <div class="wrap">
+      <div class="gallery gallery--three">
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-kaivaus.jpg" width="1200" height="1600" loading="lazy" alt="Johanna Muurinen ottaa näytettä kaivauksen maakerroksesta."><figcaption>Näytteenottoa arkeologisella kaivauksella</figcaption></figure>
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-kivikausi.jpg" width="1200" height="1600" loading="lazy" alt="Kaksi tutkijaa ottaa näytteitä maahan kaivetusta kuopasta."><figcaption>Kivikautisten jätekerrosten näytteenottoa</figcaption></figure>
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-navetta.jpg" width="1200" height="1600" loading="lazy" alt="Tutkija kerää lantanäytettä navetan käytävällä lehmien vieressä."><figcaption>Näytteenottoa navetassa</figcaption></figure>
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-laboratorio.jpg" width="1200" height="1600" loading="lazy" alt="Johanna Muurinen suojavarusteissa laboratorion työkaapilla."><figcaption>Laboratoriotyötä</figcaption></figure>
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-maaprofiili.jpg" width="1200" height="1600" loading="lazy" alt="Hanskattu käsi ottaa lusikalla näytettä punertavasta maaperäprofiilista."><figcaption>Maaperäprofiilin näytteenottoa</figcaption></figure>
+        <figure class="shot"><img class="gallery__img gallery__img--tall" src="kuvat/tutkimus-oja.jpg" width="1200" height="1600" loading="lazy" alt="Johanna Muurinen osoittaa kasvillisuuden reunustamaa ojaa."><figcaption>Kenttätöissä</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--sand">
+    <div class="wrap stack stack--lg">
+      <h2>Muut tutkimuslinjat</h2>
+      <div class="themes">
+        <div class="theme">
+          <h3>Resistenssi maataloudessa ja jätteissä</h3>
+          <p>Lantakasat, kompostit ja kaatopaikat näyttävät olevan keskeisiä antibioottiresistenssin rikastumispaikkoja. Niissä ulosteen bakteerit kohtaavat antibiootteja tuottavat ympäristöbakteerit ravinteikkaassa aineksessa. Näiden kohteiden tutkiminen on tärkeää nyt, kun kierrätyslannoitteiden käyttö kasvaa. EU:n <a href="https://lex4bio.eu/" target="_blank" rel="noopener">LEX4BIO-hankkeessa</a> vedin kierrätyslannoitteiden riskejä tutkinutta työpakettia.</p>
+        </div>
+        <div class="theme">
+          <h3>Uusia antibiootteja muinaisista mikrobeista</h3>
+          <p>Monet arkeologisista näytteistä elvyttämämme bakteerit estävät muiden bakteerien kasvua. Ne voivat tuottaa yhdisteitä, joihin nykyiset taudinaiheuttajat eivät ole sopeutuneet. Tämä tutkimus on ryhmällemme uusi aluevaltaus.</p>
+        </div>
+        <div class="theme">
+          <h3>Maankäyttö ja vesistöt</h3>
+          <p><a href="https://pubs.acs.org/doi/10.1021/acs.est.2c01570" target="_blank" rel="noopener">Tutkimuksemme Indonesiassa</a> osoitti, että maankäyttö muokkaa jokiveden mikrobistoa ja resistenssigeenejä.</p>
+        </div>
+        <div class="theme">
+          <h3>Bioturvallisuus tuotantoeläintiloilla</h3>
+          <p>Suomalaisilla sikatiloilla bioturvallisuus oli yhteydessä resistenttien E. coli -bakteerien esiintymiseen. Resistenssiä voisi siis torjua samoin keinoin kuin eläinten tartuntatauteja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <div class="stack stack--lg">
+        <h2>Ura lyhyesti</h2>
+        <dl class="dates">
+          <dt>2023–</dt><dd>Tutkimusryhmän johtaja, Helsingin yliopisto</dd>
+          <dt>2022–</dt><dd>Yliopistotutkija, Helsingin yliopisto</dd>
+          <dt>2026</dt><dd>Mikrobiologian dosentti, Helsingin yliopisto</dd>
+          <dt>Aiemmin</dt><dd>Tutkijatohtori, Purduen yliopisto (Yhdysvallat), ja tutkija, Ruokavirasto</dd>
+          <dt>2017</dt><dd>Maatalous- ja metsätieteiden tohtori (mikrobiologia), Helsingin yliopisto</dd>
+          <dt>2012</dt><dd>Maatalous- ja metsätieteiden maisteri (maaperä- ja ympäristötiede) ja agronomi, Helsingin yliopisto</dd>
+          <dt>2002</dt><dd>Laborantti, Porvoon ammattiopisto</dd>
+        </dl>
+      </div>
+      <div class="prose">
+        <p>Urapolkuni alkoi ammattikoulusta. Valmistuin laborantiksi vuonna 2002 ja työskentelin monta vuotta laboranttina eläinlääketieteellisessä tiedekunnassa. Sain kipinän tieteeseen, kun näin läheltä, mitä tutkimus on käytännössä. Hain yliopistoon, valmistuin maisteriksi maaperä- ja ympäristötieteestä ja sain samalla agronomin arvonimen.</p>
+        <p>Koska halusin tutkijaksi, minun piti tehdä väitöskirja. Sain aiheeseen inspiraation luennolla, kun luennoitsija totesi, ettei kukaan tiedä, mitä tapahtuu antibioottijäämille peltomaassa, jonne ne päätyvät lääkittyjen eläinten lannan mukana. Siksi väitöskirjani tieteenalaksi valikoitui mikrobiologia, ja pääsin aloittamaan työn, kun sain hankittua rahoituksen.</p>
+        <p>Väitöskirjatyöni osoitti, että suomalaisessa maataloudessa antibioottijäämät eivät ole ongelma, sillä niiden pitoisuudet pienenevät alle määritysrajan jo lannan varastoinnin aikana. Bakteerien antibioottiresistenssigeenejä kuitenkin löytyi, ja ne näyttivät rikastuvan varastoidussa lannassa. Resistenssigeenejä löytyi myös lannoittamattomasta peltomaasta, jopa sellaisia antibiootteja vastaan, joita Suomessa ei ole koskaan käytetty eläimille, eikä näitä geenejä löytynyt lannasta.</p>
+        <p>Päätin silloin, että haluan selvittää, mistä on kyse, ja tämä päätös johti minut nykyiseen asemaani. Vieläkään ei ole täysin selvää, mikä ympäristöbakteerien resistenssin merkitys on nykyisessä antibioottiresistenssikriisissä, mutta opimme koko ajan lisää.</p>
+        <p><a class="textlink" href="https://helenpartti.com/lintsarista-tuli-arvostettu-tutkija/" target="_blank" rel="noopener">Lue urastani Loimu-lehteen kirjoittaneen toimittajan blogista →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint">
+    <div class="wrap split">
+      <h2>Asiantuntija&shy;tehtävät</h2>
+      <div class="prose">
+        <p>Toimin asiantuntijana vasta perustetussa Euroopan elintarviketurvallisuusviraston (EFSA) mikrobiomityöryhmässä. Asiantuntemustani ovat pyytäneet myös FAO ja WHO, Pohjoismaiden ministerineuvosto, EU:n yhteinen tutkimuskeskus sekä maa- ja metsätalousministeriö, ympäristöministeriö ja sosiaali- ja terveysministeriö. Olen ollut One Health Finland ry:n puheenjohtaja tai varapuheenjohtaja vuodesta 2016.</p>
+        <p>Olen opettanut Helsingin ja Turun yliopistoissa sekä Hämeen ammattikorkeakoulussa ja ohjannut lukuisia opiskelijoita Suomessa, Yhdysvalloissa ja Beninissä. Tutkimuksestani olen kertonut muun muassa Tieteen yössä ja Ylen uutisissa.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <h2>Julkaisut ja profiili</h2>
+      <div class="stack stack--lg">
+        <div class="stack">
+          <p>Tieteelliset julkaisuni löytyvät Helsingin yliopiston tutkimusportaalista ja Google Scholarista.</p>
+          <div class="actions">
+            <a class="btn btn--solid" href="https://researchportal.helsinki.fi/en/persons/johanna-muurinen/" target="_blank" rel="noopener">Helsingin yliopiston tutkimusportaali</a>
+            <a class="btn btn--solid" href="https://scholar.google.com/citations?user=K9LRJHoAAAAJ&amp;hl=fi" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        </div>
+        <div class="stack">
+          <p class="eyebrow">Muita kirjoituksiani</p>
+          <ul class="posts">
+            <li><a href="https://www.ymparistotiedonfoorumi.fi/mina-vaitan-arkisto/mina-vaitan-antibioottiresistenssin-torjuminen-vaatii-menneisyyden-ymmartamista-ja-kokonaisvaltaista-lahestymistapaa/" target="_blank" rel="noopener">Minä väitän: Antibioottiresistenssin torjuminen vaatii menneisyyden ymmärtämistä ja kokonaisvaltaista lähestymistapaa</a>, Ympäristödialogeja, 2021</li>
+            <li><a href="http://hdl.handle.net/10138/566384" target="_blank" rel="noopener">Me ja maapallo: Miten vaalia yhteistä terveyttä?</a>, Huotari ym., 2023</li>
+            <li><a href="https://nessling.fi/en/antibiotic-resistance-research-communication/" target="_blank" rel="noopener">4 challenges and a solution in antibiotic resistance research communication</a> (englanniksi), Muurinen ja Johnson, Maj ja Tor Nesslingin säätiö, 2018</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--deep on-deep">
+    <div class="wrap stack">
+      <h2>Tutkittu tieto ei löydä tietään päätöksiin. Siksi lähdin ehdolle.</h2>
+      <div class="actions"><a class="btn" href="#politiikka" data-view="politiikka">Politiikka</a></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============ RATSASTUS ============ -->
+<div id="view-hevoset" hidden>
+
+  <section class="hero on-deep">
+    <div class="wrap hero__in">
+      <div class="stack stack--lg">
+        <p class="eyebrow">Hevoset</p>
+        <h1>Hevoset ja koulu&shy;ratsastus</h1>
+        <p class="lead">Olen hevosharrastaja ja kouluratsastaja.</p>
+      </div>
+      <img class="hero__img" src="kuvat/ratsastus-1.jpg" width="1600" height="1147" alt="Johanna Muurinen ratsastaa rautiaalla hevosella ravissa syksyisellä kentällä.">
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <h2>Koulu&shy;ratsastuksen tarkoitus</h2>
+      <figure class="quote">
+        <blockquote>”Kouluratsastuksen tarkoituksena on asteittain ja järjestelmällisesti kehittää hevosen lihaksistoa ja koko olemusta, pyrkimyksenä tehdä hevosesta irtonainen, joustava ja notkea sekä toisaalta luottavainen, kuuliainen ja eteenpäinpyrkivä niin, että se on miellyttävä ratsastaa, kestävä ja terve.”</blockquote>
+        <figcaption>Suomen Ratsastajainliiton <a href="https://www.ratsastus.fi/materiaalit/kilpailusaannot/" target="_blank" rel="noopener">kilpailusäännöt</a>, kouluratsastus (KS II), 2026</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band band--tint">
+    <div class="wrap">
+      <div class="gallery gallery--two">
+        <figure class="shot shot--wide"><img class="gallery__img" src="kuvat/ratsastus-2.jpg" width="1600" height="1175" loading="lazy" alt="Hevonen ja ratsastaja lisätyssä ravissa maneesissa."></figure>
+        <figure class="shot"><img class="gallery__img" src="kuvat/ratsastus-3.jpg" width="1600" height="1068" loading="lazy" alt="Ratsukko laukassa maneesissa."></figure>
+        <figure class="shot"><img class="gallery__img" src="kuvat/ratsastus-4.jpg" width="1600" height="1067" loading="lazy" alt="Ratsukko ravissa maneesissa peilin edessä."></figure>
+        <figure class="shot"><img class="gallery__img" src="kuvat/ratsastus-5.jpg" width="1600" height="1121" loading="lazy" alt="Ratsukko ravissa maneesin seinän vieressä."></figure>
+        <figure class="shot"><img class="gallery__img" src="kuvat/ratsastus-6.jpg" width="1600" height="1206" loading="lazy" alt="Ratsukko käynnissä maneesissa."></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--deep on-deep">
+    <div class="wrap stack">
+      <h2>Olen myös ehdolla eduskuntaan.</h2>
+      <div class="actions"><a class="btn" href="#politiikka" data-view="politiikka">Politiikka</a></div>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__text">
+      <strong>Johanna Muurinen</strong>
+      <span>Vihreiden eduskuntavaaliehdokas, Uusimaa</span>
+      <span class="foot__social"><a href="https://www.facebook.com/johanna.muurinen" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/dr.dirt2017" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.threads.com/@dr.dirt2017" target="_blank" rel="noopener">Threads</a> · <a href="https://bsky.app/profile/jmuurine.bsky.social" target="_blank" rel="noopener">Bluesky</a> · <a href="https://www.linkedin.com/in/johanna-muurinen-a08890116/" target="_blank" rel="noopener">LinkedIn</a></span>
+      <span class="foot__small">© 2026 Johanna Muurinen · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242" target="_blank" rel="noopener">Ehdokaskortti</a> · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242&amp;valilehti=donate" target="_blank" rel="noopener">Lahjoita kampanjalle</a></span>
+    </div>
+    <svg class="logo logo--nega foot__logo" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-nega"/></svg>
+  </div>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var site = document.getElementById('site');
+  var names = ['etusivu', 'politiikka', 'kantani', 'tutkimus', 'hevoset'];
+  var aliases = { ratsastus: 'hevoset' };
+  var worldOf = { kantani: 'politiikka' };
+  var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Shows one page of the site and paints the header in that page's colours.
+  function show(name, anchor, remember) {
+    if (name === 'mukaan') { anchor = 'mukaan'; }
+    if (aliases[name]) { name = aliases[name]; }
+    if (names.indexOf(name) < 0) { name = 'etusivu'; }
+    names.forEach(function (n) { document.getElementById('view-' + n).hidden = (n !== name); });
+    var world = worldOf[name] || name;
+    site.setAttribute('data-world', world);
+    document.querySelectorAll('.nav a[data-view]').forEach(function (a) {
+      if (a.getAttribute('data-view') === world && !a.getAttribute('data-anchor')) { a.setAttribute('aria-current', 'page'); }
+      else { a.removeAttribute('aria-current'); }
+    });
+    var target = anchor ? document.getElementById(anchor) : null;
+    if (target) { target.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'start' }); }
+    else if (remember) { window.scrollTo(0, 0); }
+    if (remember) { try { history.replaceState(null, '', '#' + (anchor || name)); } catch (e) {} }
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[data-view]') : null;
+    if (!a) { return; }
+    e.preventDefault();
+    show(a.getAttribute('data-view'), a.getAttribute('data-anchor'), true);
+  });
+  window.addEventListener('hashchange', function () { show((location.hash || '').slice(1), null, false); });
+  show((location.hash || '').slice(1) || 'etusivu', null, false);
+
+  // Days left until election day, 18 April 2027.
+  var el = document.getElementById('paivia');
+  var now = new Date();
+  var days = Math.round((new Date(2027, 3, 18) - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 86400000);
+  if (days > 1) { el.textContent = days + ' päivää vaalipäivään.'; }
+  else if (days === 1) { el.textContent = 'Vaalipäivä on huomenna.'; }
+  else if (days === 0) { el.textContent = 'Vaalipäivä on tänään.'; }
+  else { el.textContent = ''; }
+})();
+</script>
+</body>
+</html>

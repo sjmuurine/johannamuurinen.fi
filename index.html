@@ -889,7 +889,8 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
   var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Shows one page of the site and paints the header in that page's colours.
-  function show(name, anchor, remember) {
+  // Each move between pages changes the address (#politiikka etc.), so the browser's back button works.
+  function show(name, anchor, scroll) {
     if (name === 'mukaan') { anchor = 'mukaan'; }
     if (aliases[name]) { name = aliases[name]; }
     if (names.indexOf(name) < 0) { name = 'etusivu'; }
@@ -902,18 +903,22 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
     });
     var target = anchor ? document.getElementById(anchor) : null;
     if (target) { target.scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'start' }); }
-    else if (remember) { window.scrollTo(0, 0); }
-    if (remember) { try { history.replaceState(null, '', '#' + (anchor || name)); } catch (e) {} }
+    else if (scroll) { window.scrollTo(0, 0); }
   }
+
+  function current() { return (location.hash || '').slice(1); }
 
   document.addEventListener('click', function (e) {
     var a = e.target.closest ? e.target.closest('a[data-view]') : null;
     if (!a) { return; }
     e.preventDefault();
-    show(a.getAttribute('data-view'), a.getAttribute('data-anchor'), true);
+    var view = a.getAttribute('data-view'), anchor = a.getAttribute('data-anchor');
+    var target = anchor || view;
+    if (current() === target) { show(view, anchor, true); }
+    else { location.hash = target; }
   });
-  window.addEventListener('hashchange', function () { show((location.hash || '').slice(1), null, false); });
-  show((location.hash || '').slice(1) || 'etusivu', null, false);
+  window.addEventListener('hashchange', function () { show(current(), null, true); });
+  show(current() || 'etusivu', null, false);
 
   // Days left until election day, 18 April 2027.
   var el = document.getElementById('paivia');

@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Johanna Muurinen · Vihreät · Eduskuntavaalit 2027</title>
 <meta name="description" content="Johanna Muurinen on tutkija, mikrobiologian dosentti ja Vihreiden eduskuntavaaliehdokas Uudellamaalla. Koska tulevien sukupolvien ei tule maksaa meidän virheistämme.">
+<link rel="alternate" hreflang="fi" href="https://johannamuurinen.fi/">
+<link rel="alternate" hreflang="sv" href="https://johannamuurinen.fi/sv/">
+<link rel="alternate" hreflang="en" href="https://johannamuurinen.fi/en/">
+<link rel="alternate" hreflang="x-default" href="https://johannamuurinen.fi/">
 <link rel="canonical" href="https://johannamuurinen.fi/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
@@ -68,6 +72,10 @@ a{color:inherit}
 .nav{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem 1.3rem}
 .nav a{color:var(--white);text-decoration:none;font-weight:600;font-size:.95rem;padding-block:.3rem;border-bottom:2px solid transparent}
 .nav a[aria-current="page"]{color:var(--tint);border-bottom-color:var(--tint)}
+.langs{display:flex;gap:.15rem;font:500 .78rem/1 var(--mono);letter-spacing:.06em}
+.nav .langs a{padding:.35rem .4rem;border:0;color:var(--white);opacity:.7}
+.nav .langs a[aria-current="true"]{opacity:1;color:var(--tint);text-decoration:underline;text-underline-offset:.25em}
+.nav .langs a:hover{opacity:1}
 .nav a.nav__cta{background:var(--tint);color:var(--on-tint);padding:.4rem 1rem;border-radius:999px;border-bottom:0}
 @media(min-width:760px){.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10}}
 
@@ -279,6 +287,7 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
       <a href="#tutkimus" data-view="tutkimus">Tutkimus</a>
       <a href="#hevoset" data-view="hevoset">Hevoset</a>
       <a class="nav__cta" href="#mukaan" data-view="etusivu" data-anchor="mukaan">Tule mukaan</a>
+      <span class="langs"><a href="/" lang="fi" hreflang="fi" aria-current="true">FI</a><a href="/sv/" lang="sv" hreflang="sv">SV</a><a href="/en/" lang="en" hreflang="en">EN</a></span>
     </nav>
   </div>
 </header>
@@ -334,7 +343,7 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
   <section class="band">
     <div class="wrap stack">
       <h2>Kuka olen</h2>
-      <p class="measure">Olen ehdokas, tutkija ja ratsastaja. Jokaisella on tällä sivustolla oma osionsa.</p>
+      <p class="measure">Olen ehdokas, tutkija ja hevosihminen. Jokaisella on tällä sivustolla oma osionsa.</p>
     </div>
   </section>
   <nav class="roles" aria-label="Sivuston osiot">
@@ -483,7 +492,7 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
         <p>Lähdin 28-vuotiaana yliopistoon, koska halusin tutkijaksi ja yrittää pelastaa maailman. Aika pian ymmärsin, ettei maailma pelastu yksin luonnontieteen keinoin ja että tutkimustulos ei muutu poliittiseksi päätökseksi itsestään.</p>
         <p>Kuvaan tilannetta usein vertauksella. Ihmiskunta tarvitsee tuoleja, ja tutkijat valmistavat niihin sopivia puukappaleita. Kappaleet sopisivat yhteen täydellisesti, mutta kukaan ei kokoa niistä tuoleja. Meillä on siis ratkaisujen avaimet moniin ongelmiin, mutta niitä ei käytetä.</p>
         <p>Politiikkaan minut houkutteli opiskelukaverini, joka toimi Sipoon kuntapolitiikassa. Hän kysyi, tiesinkö, että kuntapäättäjänä voisin olla siinä pöydässä, jossa päätetään viheryhteyden katkaisevasta rakennusluvasta. Sellainen päätös heikentää luonnon monimuotoisuutta, joka suojaa terveyttämme. Luonnonympäristöjä pirstova rakentaminen vaikuttaa esimerkiksi siihen, miten punkkeja levittävien kauriiden ja ihmisten elinpiirit risteävät. Kun tutkin asiaa, huomasin, että yllättävän moni kestävän kehityksen ja luontokadon kysymys ratkaistaan juuri kunnissa. Lähdin ehdolle, vaikka olin vasta hiljattain muuttanut Sipooseen ja minut tunsi vain kourallinen ihmisiä. Minusta tuli Vihreiden 1. varavaltuutettu. Rakennus- ja ympäristövaliokunnassa tuon nyt tutkittua tietoa päätöksiin esimerkiksi hajarakentamisesta.</p>
-        <p>Nyt haluan viedä tutkittua tietoa päätöksiin laajemmin. En tyydy siihen, että politiikan puhe pyörii kurjuuden ja kipeiden päätösten ympärillä, ikään kuin parempaan ei olisi mahdollisuuksia. Tutkijana olen tottunut etsimään ratkaisuja. Usein tieteellisen tutkimuksen lähtökohta on jokin ihmiskunnan ongelma, jota tutkimuksella pyritään ratkaisemaan. Itse olen muun muassa tutkinut EU-rahoitteisessa <a href="https://lex4bio.eu/" target="_blank" rel="noopener">LEX4BIO-hankkeessa</a> kierrätyslannoitteiden mikrobiologisia riskejä, koska pelko niistä on yksi syy siihen, että kierrätyslannoitteita vierastetaan. Tulokset olivat rauhoittavia: kierrätyslannoitteet eivät levitä antibioottiresistenssiä maatalousekosysteemeissä sen enempää kuin tavallinen karjanlanta. Kierrätyslannoitteet vähentäisivät maatalouden riippuvuutta fossiilisesta energiasta ja tuontilannoitteista ja edistäisivät kiertotaloutta. Ratkaisuja on siis olemassa, kunhan niitä otetaan käyttöön.</p>
+        <p>Nyt haluan viedä tutkittua tietoa päätöksiin laajemmin. En tyydy siihen, että politiikan puhe pyörii kurjuuden ja kipeiden päätösten ympärillä, ikään kuin parempaan ei olisi mahdollisuuksia. Tutkijana olen tottunut etsimään ratkaisuja. Usein tieteellisen tutkimuksen lähtökohta on jokin ihmiskunnan ongelma, jota tutkimuksella pyritään ratkaisemaan. Itse olen muun muassa tutkinut EU-rahoitteisessa <a href="https://lex4bio.eu/" target="_blank" rel="noopener">LEX4BIO-hankkeessa</a> kierrätyslannoitteiden mikrobiologisia riskejä, koska pelko niistä on yksi syy siihen, että kierrätyslannoitteita vierastetaan. Tulokset olivat rauhoittavia: kierrätyslannoitteet eivät levitä antibioottiresistenssiä maatalousekosysteemeissä sen enempää kuin tavallinen karjanlanta. Kierrätyslannoitteet vähentäisivät maatalouden riippuvuutta fossiilisesta energiasta ja väkilannoitteista ja edistäisivät kiertotaloutta. Ratkaisuja on siis olemassa, kunhan niitä otetaan käyttöön.</p>
         <p>Jotta ratkaisuja syntyy myös tulevaisuudessa, tarvitsemme tutkimusta ja tuotekehitystä sekä niiden viisasta tukemista. Suomen kilpailukyvyn turvaaminen vaatii vahvaa panostusta yliopistojen perustutkimukseen. Näistä aineksista syntyy myös kestävää talouskasvua. Tutkimukseen ja innovaatioihin panostamisesta päätetään eduskunnassa, ja se on yksi monista syistä, miksi lähdin ehdolle eduskuntavaaleissa.</p>
       </div>
     </div>
@@ -889,7 +898,7 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
       <strong>Johanna Muurinen</strong>
       <span>Vihreiden eduskuntavaaliehdokas, Uusimaa</span>
       <span class="foot__social"><a href="https://www.facebook.com/johanna.muurinen" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/dr.dirt2017" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.threads.com/@dr.dirt2017" target="_blank" rel="noopener">Threads</a> · <a href="https://bsky.app/profile/jmuurine.bsky.social" target="_blank" rel="noopener">Bluesky</a> · <a href="https://www.linkedin.com/in/johanna-muurinen-a08890116/" target="_blank" rel="noopener">LinkedIn</a></span>
-      <span class="foot__small">© 2026 Johanna Muurinen · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242" target="_blank" rel="noopener">Ehdokaskortti</a> · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242&amp;valilehti=donate" target="_blank" rel="noopener">Lahjoita kampanjalle</a></span>
+      <span class="foot__small">© 2026 Johanna Muurinen · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242" target="_blank" rel="noopener">Ehdokaskortti</a> · <a href="https://www.uudenmaanvihreat.fi/vaalit/ehdokkaamme/?kieli=fi&amp;vaali=eduskuntavaalit-2027&amp;alue=vp2&amp;ehdokas=muurinen-johanna-10242&amp;valilehti=donate" target="_blank" rel="noopener">Lahjoita kampanjalle</a> · <a href="https://www.simpleanalytics.com/" target="_blank" rel="noopener">Evästeetön kävijätilasto: Simple Analytics</a></span>
     </div>
     <svg class="logo logo--nega foot__logo" viewBox="0 0 316.26 98.51" role="img" aria-label="Vihreät, De Gröna, The Greens"><use href="#logo-nega"/></svg>
   </div>
@@ -947,5 +956,8 @@ a.theme:hover h3,a.theme:focus-visible h3{text-decoration-color:currentColor}
   else { el.textContent = ''; }
 })();
 </script>
+<!-- Simple Analytics: no cookies, no personal data. Hash mode counts each section (#tutkimus etc.) as its own page. -->
+<script data-mode="hash" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
 </body>
 </html>
